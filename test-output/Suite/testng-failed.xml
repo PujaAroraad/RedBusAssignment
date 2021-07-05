@@ -3,33 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.TestsType02_Login">
+      <class name="tests.sample">
         <methods>
-          <include name="endReport"/>
-          <include name="loginWithFacebookTest"/>
-          <include name="initializeWebDriver"/>
+          <include name="testsample"/>
           <include name="setExtent"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- tests.TestsType02_Login -->
-      <class name="tests.TestsType04_BookSeat">
-        <methods>
+          <include name="endTestAndCloseBrowser"/>
           <include name="endReport"/>
-          <include name="initializeWebDriver"/>
-          <include name="setExtent"/>
-          <include name="bookSeat_loggedInRedBusAccount"/>
-          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- tests.TestsType04_BookSeat -->
-      <class name="tests.TestsType03_SearchCityNameAndDateTest">
-        <methods>
-          <include name="endReport"/>
-          <include name="initializeWebDriver"/>
-          <include name="setExtent"/>
-          <include name="searchtest"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- tests.TestsType03_SearchCityNameAndDateTest -->
+      </class> <!-- tests.sample -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

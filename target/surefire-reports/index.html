@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,26 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">27 methods, 2 failed,   25 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.TestsType_Help" hash-for-method="helpTypeNavigationTest">helpTypeNavigationTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.TestsType_Help" hash-for-method="help_viewAllChatsNavigationTest">help_viewAllChatsNavigationTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">27 methods,   27 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -201,6 +182,16 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.TestsType_Help" hash-for-method="helpTypeNavigationTest">helpTypeNavigationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.TestsType_Help" hash-for-method="help_viewAllChatsNavigationTest">help_viewAllChatsNavigationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.TestsType_Login" hash-for-method="loginWithFacebookTest">loginWithFacebookTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -256,75 +247,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">tests.TestsType_Help</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="helpTypeNavigationTest">
-                  </a> <!-- helpTypeNavigationTest -->
-                  <span class="method-name">helpTypeNavigationTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window
-  (Session info: chrome=91.0.4472.124)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;PUJAARORA&apos;, ip: &apos;172.22.64.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\PUJAAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0fed5fb2164dbdbbf5addba32817e43b
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy27.click(Unknown Source)
-	at pages.HelpPage.click_newBusBookingHelp(HelpPage.java:38)
-	at tests.TestsType_Help.helpTypeNavigationTest(TestsType_Help.java:55)
-... Removed 36 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="help_viewAllChatsNavigationTest">
-                  </a> <!-- help_viewAllChatsNavigationTest -->
-                  <span class="method-name">help_viewAllChatsNavigationTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;reactContentMount&quot;]/div/div[2]/div[2]/div&quot;}
-  (Session info: chrome=91.0.4472.124)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;PUJAARORA&apos;, ip: &apos;172.22.64.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\PUJAAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b328a196b2779d3c223861335253a89a
-*** Element info: {Using=xpath, value=//*[@id=&quot;reactContentMount&quot;]/div/div[2]/div[2]/div}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy27.click(Unknown Source)
-	at pages.HelpPage.click_viewLastChat(HelpPage.java:85)
-	at tests.TestsType_Help.help_viewAllChatsNavigationTest(TestsType_Help.java:180)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -393,6 +315,28 @@ Session ID: b328a196b2779d3c223861335253a89a
                   <a name="loginWithPhnNoValidTest">
                   </a> <!-- loginWithPhnNoValidTest -->
                   <span class="method-name">loginWithPhnNoValidTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TestsType_Help</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="helpTypeNavigationTest">
+                  </a> <!-- helpTypeNavigationTest -->
+                  <span class="method-name">helpTypeNavigationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="help_viewAllChatsNavigationTest">
+                  </a> <!-- help_viewAllChatsNavigationTest -->
+                  <span class="method-name">help_viewAllChatsNavigationTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -626,118 +570,118 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(27);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'bookSeat_loggedInRedBusAccount')
-data.setCell(0, 2, 'tests.TestsType_BookSeat')
-data.setCell(0, 3, 101444);
+data.setCell(0, 1, 'helpTypeNavigationTest')
+data.setCell(0, 2, 'tests.TestsType_Help')
+data.setCell(0, 3, 121830);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'searchtest')
-data.setCell(1, 2, 'tests.TestsType_SearchCityNameAndDateTest')
-data.setCell(1, 3, 77259);
+data.setCell(1, 1, 'bookSeat_loggedInRedBusAccount')
+data.setCell(1, 2, 'tests.TestsType_BookSeat')
+data.setCell(1, 3, 120678);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'help_viewAllChatsNavigationTest')
-data.setCell(2, 2, 'tests.TestsType_Help')
-data.setCell(2, 3, 70542);
+data.setCell(2, 1, 'searchtest')
+data.setCell(2, 2, 'tests.TestsType_SearchCityNameAndDateTest')
+data.setCell(2, 3, 88265);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginWithGoogleTest')
-data.setCell(3, 2, 'tests.TestsType_Login')
-data.setCell(3, 3, 60925);
+data.setCell(3, 1, 'help_viewAllChatsNavigationTest')
+data.setCell(3, 2, 'tests.TestsType_Help')
+data.setCell(3, 3, 83183);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'helpTypeNavigationTest')
-data.setCell(4, 2, 'tests.TestsType_Help')
-data.setCell(4, 3, 57287);
+data.setCell(4, 1, 'loginWithGoogleTest')
+data.setCell(4, 2, 'tests.TestsType_Login')
+data.setCell(4, 3, 80700);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'loginWithFacebookTest')
 data.setCell(5, 2, 'tests.TestsType_Login')
-data.setCell(5, 3, 45477);
+data.setCell(5, 3, 59324);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'busHireOptionsNavigationTest')
 data.setCell(6, 2, 'tests.TestsType_BusHire')
-data.setCell(6, 3, 32417);
+data.setCell(6, 3, 55389);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'employeeTransportTest_Invalid_BlankFields')
+data.setCell(7, 1, 'employeeTransportTest_invalidEmailAndPhn')
 data.setCell(7, 2, 'tests.TestsType_BusHire')
-data.setCell(7, 3, 26493);
+data.setCell(7, 3, 38525);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'employeeTransportTest_invalidEmailAndPhn')
+data.setCell(8, 1, 'employeeTransportTest_Invalid_BlankFields')
 data.setCell(8, 2, 'tests.TestsType_BusHire')
-data.setCell(8, 3, 26246);
+data.setCell(8, 3, 35516);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'loginWithPhnNoValidTest')
-data.setCell(9, 2, 'tests.TestsType_Login')
-data.setCell(9, 3, 15459);
+data.setCell(9, 1, 'ChangeTravelDate_invalidtin_invalidemail')
+data.setCell(9, 2, 'tests.TestsType_ChangeTravelDate')
+data.setCell(9, 3, 30117);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'loginWithPhnNoInValidTest')
-data.setCell(10, 2, 'tests.TestsType_Login')
-data.setCell(10, 3, 15445);
+data.setCell(10, 1, 'emailSmsTicket_invalidtin_invalidemail')
+data.setCell(10, 2, 'tests.TestsType_EmailSmsTicket')
+data.setCell(10, 3, 29694);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'cancelTicket_validtin_invalidemail')
-data.setCell(11, 2, 'tests.TestsType_CancelTicket')
-data.setCell(11, 3, 13281);
+data.setCell(11, 1, 'emailSmsTicket_validtin_validemail')
+data.setCell(11, 2, 'tests.TestsType_EmailSmsTicket')
+data.setCell(11, 3, 28489);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'cancelTicket_invalidtin_invalidemail')
-data.setCell(12, 2, 'tests.TestsType_CancelTicket')
-data.setCell(12, 3, 13190);
+data.setCell(12, 1, 'loginWithPhnNoInValidTest')
+data.setCell(12, 2, 'tests.TestsType_Login')
+data.setCell(12, 3, 26310);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'cancelTicket_invalidtin_validemail')
 data.setCell(13, 2, 'tests.TestsType_CancelTicket')
-data.setCell(13, 3, 13010);
+data.setCell(13, 3, 25782);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'ChangeTravelDate_invalidtin_validemail')
-data.setCell(14, 2, 'tests.TestsType_ChangeTravelDate')
-data.setCell(14, 3, 12985);
+data.setCell(14, 1, 'loginWithPhnNoValidTest')
+data.setCell(14, 2, 'tests.TestsType_Login')
+data.setCell(14, 3, 23996);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'ChangeTravelDate_invalidtin_invalidemail')
-data.setCell(15, 2, 'tests.TestsType_ChangeTravelDate')
-data.setCell(15, 3, 12960);
+data.setCell(15, 1, 'cancelTicket_validtin_invalidemail')
+data.setCell(15, 2, 'tests.TestsType_CancelTicket')
+data.setCell(15, 3, 22579);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'ChangeTravelDate_validtin_invalidemail')
+data.setCell(16, 1, 'ChangeTravelDate_invalidtin_validemail')
 data.setCell(16, 2, 'tests.TestsType_ChangeTravelDate')
-data.setCell(16, 3, 12911);
+data.setCell(16, 3, 22181);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'emailSmsTicket_invalidtin_invalidemail')
-data.setCell(17, 2, 'tests.TestsType_EmailSmsTicket')
-data.setCell(17, 3, 11466);
+data.setCell(17, 1, 'showMyTicket_invalidtin_validemail')
+data.setCell(17, 2, 'tests.TestsType_ShowMyTicket')
+data.setCell(17, 3, 21748);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'emailSmsTicket_invalidtin_validemail')
-data.setCell(18, 2, 'tests.TestsType_EmailSmsTicket')
-data.setCell(18, 3, 10963);
+data.setCell(18, 1, 'ChangeTravelDate_validtin_invalidemail')
+data.setCell(18, 2, 'tests.TestsType_ChangeTravelDate')
+data.setCell(18, 3, 21077);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'emailSmsTicket_validtin_validemail')
+data.setCell(19, 1, 'emailSmsTicket_invalidtin_validemail')
 data.setCell(19, 2, 'tests.TestsType_EmailSmsTicket')
-data.setCell(19, 3, 10644);
+data.setCell(19, 3, 20925);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'emailSmsTicket_validtin_invalidemail')
-data.setCell(20, 2, 'tests.TestsType_EmailSmsTicket')
-data.setCell(20, 3, 10634);
+data.setCell(20, 1, 'cancelTicket_invalidtin_invalidemail')
+data.setCell(20, 2, 'tests.TestsType_CancelTicket')
+data.setCell(20, 3, 20667);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'showMyTicket_validtin_invalidemail')
-data.setCell(21, 2, 'tests.TestsType_ShowMyTicket')
-data.setCell(21, 3, 10633);
+data.setCell(21, 1, 'emailSmsTicket_validtin_invalidemail')
+data.setCell(21, 2, 'tests.TestsType_EmailSmsTicket')
+data.setCell(21, 3, 20247);
 data.setCell(22, 0, 22)
 data.setCell(22, 1, 'showMyTicket_validtin_validemail')
 data.setCell(22, 2, 'tests.TestsType_ShowMyTicket')
-data.setCell(22, 3, 10616);
+data.setCell(22, 3, 20134);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'showMyTicket_invalidtin_validemail')
+data.setCell(23, 1, 'showMyTicket_invalidtin_invalidemail')
 data.setCell(23, 2, 'tests.TestsType_ShowMyTicket')
-data.setCell(23, 3, 10389);
+data.setCell(23, 3, 19254);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'showMyTicket_invalidtin_invalidemail')
-data.setCell(24, 2, 'tests.TestsType_ShowMyTicket')
-data.setCell(24, 3, 10293);
+data.setCell(24, 1, 'ChangeTravelDate_validtin_validemail')
+data.setCell(24, 2, 'tests.TestsType_ChangeTravelDate')
+data.setCell(24, 3, 19147);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'cancelTicket_validtin_validemail')
-data.setCell(25, 2, 'tests.TestsType_CancelTicket')
-data.setCell(25, 3, 10041);
+data.setCell(25, 1, 'showMyTicket_validtin_invalidemail')
+data.setCell(25, 2, 'tests.TestsType_ShowMyTicket')
+data.setCell(25, 3, 19110);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'ChangeTravelDate_validtin_validemail')
-data.setCell(26, 2, 'tests.TestsType_ChangeTravelDate')
-data.setCell(26, 3, 10002);
+data.setCell(26, 1, 'cancelTicket_validtin_validemail')
+data.setCell(26, 2, 'tests.TestsType_CancelTicket')
+data.setCell(26, 3, 18452);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 minutes</span>
+              <span class="suite-total-time">Total running time: 18 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -748,6 +692,247 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ChangeTravelDate_invalidtin_invalidemail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigated to changeTravelDate page and details filled and submit clicked</span>
+                <span class="reporter-method-output">warning validated</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">cancelTicket_invalidtin_invalidemail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigated to cancel ticket page and details filled and submit clicked</span>
+                <span class="reporter-method-output">warning validated</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginWithGoogleTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">google browser login</span>
+                <span class="reporter-method-output">navigate to site home page</span>
+                <span class="reporter-method-output">navigate to sign in page</span>
+                <span class="reporter-method-output">sign in with google choosed</span>
+                <span class="reporter-method-output">sign out appers</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">emailSmsTicket_validtin_validemail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigated to home page</span>
+                <span class="reporter-method-output">navigated to EmailSmsTicket page</span>
+                <span class="reporter-method-output">details filled submit clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ChangeTravelDate_validtin_validemail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigated to home page</span>
+                <span class="reporter-method-output">navigated to ChangeTravelDate page</span>
+                <span class="reporter-method-output">details filled submit clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">employeeTransportTest_Invalid_BlankFields</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigate to home page</span>
+                <span class="reporter-method-output">navigate to bus hire page</span>
+                <span class="reporter-method-output">navigate to rcommute page</span>
+                <span class="reporter-method-output">submit clicked without filling fields</span>
+                <span class="reporter-method-output">error appears</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">showMyTicket_invalidtin_validemail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigated to showMyTicket page and details filled and submit clicked</span>
+                <span class="reporter-method-output">warning validated</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">emailSmsTicket_validtin_invalidemail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigated to emailSmsTicket page and details filled and submit clicked</span>
+                <span class="reporter-method-output">warning validated</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">helpTypeNavigationTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">browser login and then site login</span>
+                <span class="reporter-method-output">navigated to home page</span>
+                <span class="reporter-method-output">navigated to help page</span>
+                <span class="reporter-method-output">popups handled</span>
+                <span class="reporter-method-output">navigated to newBusBookingHelp</span>
+                <span class="reporter-method-output">navigated to covid19traveladvisory</span>
+                <span class="reporter-method-output">navigated to safetyPlusFeatureHelp</span>
+                <span class="reporter-method-output">navigated to technicalIssuesHelp</span>
+                <span class="reporter-method-output">navigated to redbusReferralHelp</span>
+                <span class="reporter-method-output">navigated to offersHelp</span>
+                <span class="reporter-method-output">navigated to redBusWalletHelp</span>
+                <span class="reporter-method-output">navigated to rpoolHelp</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ChangeTravelDate_invalidtin_validemail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigated to changeTravelDate page and details filled and submit clicked</span>
+                <span class="reporter-method-output">warning validated</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ChangeTravelDate_validtin_invalidemail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigated to changeTravelDate page and details filled and submit clicked</span>
+                <span class="reporter-method-output">warning validated</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">emailSmsTicket_invalidtin_invalidemail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigated to emailSmsTicket page and details filled and submit clicked</span>
+                <span class="reporter-method-output">warning validated</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchtest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigate to home page</span>
+                <span class="reporter-method-output">filled details src,dest,date areDelhi Gurgaon 31-8-2021</span>
+                <span class="reporter-method-output">SearchCityNameAndDateTest_searchtest_Delhi Gurgaon 31-8-2021 test ends</span>
+                <span class="reporter-method-output">navigate to home page</span>
+                <span class="reporter-method-output">filled details src,dest,date areAmritsar Chandigarh 29-10-2021</span>
+                <span class="reporter-method-output">SearchCityNameAndDateTest_searchtest_Amritsar Chandigarh 29-10-2021 test ends</span>
+                <span class="reporter-method-output">navigate to home page</span>
+                <span class="reporter-method-output">filled details src,dest,date areLucknow Kanpur 13-12-2021</span>
+                <span class="reporter-method-output">SearchCityNameAndDateTest_searchtest_Lucknow Kanpur 13-12-2021 test ends</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">cancelTicket_invalidtin_validemail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigated to cancel ticket page and details filled and submit clicked</span>
+                <span class="reporter-method-output">warning validated</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">cancelTicket_validtin_invalidemail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigated to cancel ticket page and details filled and submit clicked</span>
+                <span class="reporter-method-output">warning validated</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">help_viewAllChatsNavigationTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">browser login and then site login</span>
+                <span class="reporter-method-output">navigated to home page</span>
+                <span class="reporter-method-output">navigated to help page</span>
+                <span class="reporter-method-output">popups handled</span>
+                <span class="reporter-method-output">popups handled</span>
+                <span class="reporter-method-output">navigated to chats page</span>
+                <span class="reporter-method-output">view last chat</span>
+                <span class="reporter-method-output">view previous chat</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">showMyTicket_validtin_validemail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigated to home page</span>
+                <span class="reporter-method-output">navigated to show my ticket page</span>
+                <span class="reporter-method-output">details filled and submit clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">busHireOptionsNavigationTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigate to home page</span>
+                <span class="reporter-method-output">navigate to bus hire page</span>
+                <span class="reporter-method-output">navigate to outstation page</span>
+                <span class="reporter-method-output">navigate to local page</span>
+                <span class="reporter-method-output">navigate to airport page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">employeeTransportTest_invalidEmailAndPhn</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigate to home page</span>
+                <span class="reporter-method-output">navigate to bus hire page</span>
+                <span class="reporter-method-output">navigate to rcommute page</span>
+                <span class="reporter-method-output">fields filled with invalid credential format</span>
+                <span class="reporter-method-output">submit clicked</span>
+                <span class="reporter-method-output">error appears</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">bookSeat_loggedInRedBusAccount</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">login is successful</span>
+                <span class="reporter-method-output">src,dest,date fields are filled and search clicked</span>
+                <span class="reporter-method-output">view seats result displayed</span>
+                <span class="reporter-method-output">view seats info displayed</span>
+                <span class="reporter-method-output">seat is selected</span>
+                <span class="reporter-method-output">trip time 1st option choosed</span>
+                <span class="reporter-method-output">continue and proceeded with info validation of trip by time and source</span>
+                <span class="reporter-method-output">navigated to passenger details page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginWithPhnNoInValidTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigate to site home page</span>
+                <span class="reporter-method-output">navigate to sign in page</span>
+                <span class="reporter-method-output">invalid phn no filled and error msg appears</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">cancelTicket_validtin_validemail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigated to home page</span>
+                <span class="reporter-method-output">navigated to cancel ticket page</span>
+                <span class="reporter-method-output">details filled submit clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">emailSmsTicket_invalidtin_validemail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigated to emailSmsTicket page and details filled and submit clicked</span>
+                <span class="reporter-method-output">warning validated</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">showMyTicket_invalidtin_invalidemail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigated to showMyTicket page and details filled and submit clicked</span>
+                <span class="reporter-method-output">warning validated</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">showMyTicket_validtin_invalidemail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigated to showMyTicket page and details filled and submit clicked</span>
+                <span class="reporter-method-output">warning validated</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginWithPhnNoValidTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">navigate to site home page</span>
+                <span class="reporter-method-output">navigate to sign in page</span>
+                <span class="reporter-method-output">phn no filled without error msg</span>
+                <span class="reporter-method-output">captcha box appears</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginWithFacebookTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">facebook browser login</span>
+                <span class="reporter-method-output">navigate to site home page</span>
+                <span class="reporter-method-output">navigate to sign in page</span>
+                <span class="reporter-method-output">sign in with facebook choosed</span>
+                <span class="reporter-method-output">sign out appers</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -840,384 +1025,272 @@ return data;
                 <span class="method-name">setExtent</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">144 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">bookSeat_loggedInRedBusAccount</span>
-                <span class="method-start">27032 ms</span>
+                <span class="method-start">1007 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=bookSeat_loggedInRedBusAccount status=SUCCESS method=TestsType_BookSeat.bookSeat_lo...)</span>
-                <span class="method-start">128477 ms</span>
+                <span class="method-start">121685 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestsType_Login</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">129168 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginWithFacebookTest</span>
-                <span class="method-start">140583 ms</span>
+                <span class="method-start">121708 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=loginWithFacebookTest status=SUCCESS method=TestsType_Login.loginWithFacebookTest()...)</span>
-                <span class="method-start">186060 ms</span>
+                <span class="method-start">181033 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">186735 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginWithGoogleTest</span>
-                <span class="method-start">212009 ms</span>
+                <span class="method-start">181035 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=loginWithGoogleTest status=SUCCESS method=TestsType_Login.loginWithGoogleTest()[pri...)</span>
-                <span class="method-start">272934 ms</span>
+                <span class="method-start">261737 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">273576 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginWithPhnNoInValidTest</span>
-                <span class="method-start">299023 ms</span>
+                <span class="method-start">261738 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=loginWithPhnNoInValidTest status=SUCCESS method=TestsType_Login.loginWithPhnNoInVal...)</span>
-                <span class="method-start">314469 ms</span>
+                <span class="method-start">288048 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">315129 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginWithPhnNoValidTest</span>
-                <span class="method-start">328306 ms</span>
+                <span class="method-start">288050 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=loginWithPhnNoValidTest status=SUCCESS method=TestsType_Login.loginWithPhnNoValidTe...)</span>
-                <span class="method-start">343765 ms</span>
+                <span class="method-start">312046 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestsType_SearchCityNameAndDateTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">refreshFile</span>
-                <span class="method-start">344413 ms</span>
+                <span class="method-start">312048 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">344761 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">searchtest</span>
-                <span class="method-start">370015 ms</span>
+                <span class="method-start">312178 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=searchtest status=SUCCESS method=TestsType_SearchCityNameAndDateTest.searchtest()[p...)</span>
-                <span class="method-start">447275 ms</span>
+                <span class="method-start">400443 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestsType_CancelTicket</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">refreshFile</span>
-                <span class="method-start">448016 ms</span>
+                <span class="method-start">400444 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">448052 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cancelTicket_invalidtin_invalidemail</span>
-                <span class="method-start">456951 ms</span>
+                <span class="method-start">400501 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=cancelTicket_invalidtin_invalidemail status=SUCCESS method=TestsType_CancelTicket.c...)</span>
-                <span class="method-start">470141 ms</span>
+                <span class="method-start">421168 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">470806 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cancelTicket_invalidtin_validemail</span>
-                <span class="method-start">496081 ms</span>
+                <span class="method-start">421170 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=cancelTicket_invalidtin_validemail status=SUCCESS method=TestsType_CancelTicket.can...)</span>
-                <span class="method-start">509091 ms</span>
+                <span class="method-start">446953 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">509784 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cancelTicket_validtin_invalidemail</span>
-                <span class="method-start">515826 ms</span>
+                <span class="method-start">446955 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=cancelTicket_validtin_invalidemail status=SUCCESS method=TestsType_CancelTicket.can...)</span>
-                <span class="method-start">529108 ms</span>
+                <span class="method-start">469535 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">529771 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cancelTicket_validtin_validemail</span>
-                <span class="method-start">555014 ms</span>
+                <span class="method-start">469535 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=cancelTicket_validtin_validemail status=SUCCESS method=TestsType_CancelTicket.cance...)</span>
-                <span class="method-start">565056 ms</span>
+                <span class="method-start">487987 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestsType_ChangeTravelDate</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">refreshFile</span>
-                <span class="method-start">565756 ms</span>
+                <span class="method-start">487990 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">565780 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ChangeTravelDate_invalidtin_invalidemail</span>
-                <span class="method-start">585935 ms</span>
+                <span class="method-start">488055 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=ChangeTravelDate_invalidtin_invalidemail status=SUCCESS method=TestsType_ChangeTrav...)</span>
-                <span class="method-start">598895 ms</span>
+                <span class="method-start">518172 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">599527 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ChangeTravelDate_invalidtin_validemail</span>
-                <span class="method-start">624850 ms</span>
+                <span class="method-start">518174 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=ChangeTravelDate_invalidtin_validemail status=SUCCESS method=TestsType_ChangeTravel...)</span>
-                <span class="method-start">637835 ms</span>
+                <span class="method-start">540356 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">638470 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ChangeTravelDate_validtin_invalidemail</span>
-                <span class="method-start">663701 ms</span>
+                <span class="method-start">540357 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=ChangeTravelDate_validtin_invalidemail status=SUCCESS method=TestsType_ChangeTravel...)</span>
-                <span class="method-start">676612 ms</span>
+                <span class="method-start">561435 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">677260 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ChangeTravelDate_validtin_validemail</span>
-                <span class="method-start">702549 ms</span>
+                <span class="method-start">561436 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=ChangeTravelDate_validtin_validemail status=SUCCESS method=TestsType_ChangeTravelDa...)</span>
-                <span class="method-start">712551 ms</span>
+                <span class="method-start">580583 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestsType_ShowMyTicket</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">refreshFile</span>
-                <span class="method-start">713176 ms</span>
+                <span class="method-start">580585 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">713195 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">showMyTicket_invalidtin_invalidemail</span>
-                <span class="method-start">738432 ms</span>
+                <span class="method-start">580651 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=showMyTicket_invalidtin_invalidemail status=SUCCESS method=TestsType_ShowMyTicket.s...)</span>
-                <span class="method-start">748725 ms</span>
+                <span class="method-start">599905 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">749388 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">showMyTicket_invalidtin_validemail</span>
-                <span class="method-start">774609 ms</span>
+                <span class="method-start">599907 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=showMyTicket_invalidtin_validemail status=SUCCESS method=TestsType_ShowMyTicket.sho...)</span>
-                <span class="method-start">784998 ms</span>
+                <span class="method-start">621655 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">785657 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">showMyTicket_validtin_invalidemail</span>
-                <span class="method-start">810948 ms</span>
+                <span class="method-start">621657 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=showMyTicket_validtin_invalidemail status=SUCCESS method=TestsType_ShowMyTicket.sho...)</span>
-                <span class="method-start">821581 ms</span>
+                <span class="method-start">640768 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">822218 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">showMyTicket_validtin_validemail</span>
-                <span class="method-start">847463 ms</span>
+                <span class="method-start">640769 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=showMyTicket_validtin_validemail status=SUCCESS method=TestsType_ShowMyTicket.showM...)</span>
-                <span class="method-start">858079 ms</span>
+                <span class="method-start">660903 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestsType_EmailSmsTicket</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">refreshFile</span>
-                <span class="method-start">858691 ms</span>
+                <span class="method-start">660904 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">858705 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">emailSmsTicket_invalidtin_invalidemail</span>
-                <span class="method-start">883959 ms</span>
+                <span class="method-start">660967 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=emailSmsTicket_invalidtin_invalidemail status=SUCCESS method=TestsType_EmailSmsTick...)</span>
-                <span class="method-start">895425 ms</span>
+                <span class="method-start">690661 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">896248 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">emailSmsTicket_invalidtin_validemail</span>
-                <span class="method-start">902737 ms</span>
+                <span class="method-start">690662 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=emailSmsTicket_invalidtin_validemail status=SUCCESS method=TestsType_EmailSmsTicket...)</span>
-                <span class="method-start">913700 ms</span>
+                <span class="method-start">711588 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">914562 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">emailSmsTicket_validtin_invalidemail</span>
-                <span class="method-start">940175 ms</span>
+                <span class="method-start">711590 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=emailSmsTicket_validtin_invalidemail status=SUCCESS method=TestsType_EmailSmsTicket...)</span>
-                <span class="method-start">950809 ms</span>
+                <span class="method-start">731838 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">951470 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">emailSmsTicket_validtin_validemail</span>
-                <span class="method-start">976757 ms</span>
+                <span class="method-start">731840 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=emailSmsTicket_validtin_validemail status=SUCCESS method=TestsType_EmailSmsTicket.e...)</span>
-                <span class="method-start">987401 ms</span>
+                <span class="method-start">760329 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestsType_Help</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">988034 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">helpTypeNavigationTest</span>
-                <span class="method-start">1013300 ms</span>
+                <span class="method-start">760332 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">endTestAndCloseBrowser([TestResult name=helpTypeNavigationTest status=FAILURE method=TestsType_Help.helpTypeNavigationTest(...)</span>
-                <span class="method-start">1070591 ms</span>
+                <span class="method-name">endTestAndCloseBrowser([TestResult name=helpTypeNavigationTest status=SUCCESS method=TestsType_Help.helpTypeNavigationTest(...)</span>
+                <span class="method-start">882162 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">1071434 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">help_viewAllChatsNavigationTest</span>
-                <span class="method-start">1096688 ms</span>
+                <span class="method-start">882163 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">endTestAndCloseBrowser([TestResult name=help_viewAllChatsNavigationTest status=FAILURE method=TestsType_Help.help_viewAllCh...)</span>
-                <span class="method-start">1167230 ms</span>
+                <span class="method-name">endTestAndCloseBrowser([TestResult name=help_viewAllChatsNavigationTest status=SUCCESS method=TestsType_Help.help_viewAllCh...)</span>
+                <span class="method-start">965346 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestsType_BusHire</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">1168093 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">busHireOptionsNavigationTest</span>
-                <span class="method-start">1193345 ms</span>
+                <span class="method-start">965350 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=busHireOptionsNavigationTest status=SUCCESS method=TestsType_BusHire.busHireOptions...)</span>
-                <span class="method-start">1225763 ms</span>
+                <span class="method-start">1020740 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">1226472 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">employeeTransportTest_Invalid_BlankFields</span>
-                <span class="method-start">1251771 ms</span>
+                <span class="method-start">1020742 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=employeeTransportTest_Invalid_BlankFields status=SUCCESS method=TestsType_BusHire.e...)</span>
-                <span class="method-start">1278264 ms</span>
+                <span class="method-start">1056258 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeWebDriver</span>
-                <span class="method-start">1278916 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">employeeTransportTest_invalidEmailAndPhn</span>
-                <span class="method-start">1304173 ms</span>
+                <span class="method-start">1056259 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTestAndCloseBrowser([TestResult name=employeeTransportTest_invalidEmailAndPhn status=SUCCESS method=TestsType_BusHire.em...)</span>
-                <span class="method-start">1330419 ms</span>
+                <span class="method-start">1094784 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestsType_BookSeat</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">endReport</span>
-                <span class="method-start">1331090 ms</span>
+                <span class="method-start">1094833 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

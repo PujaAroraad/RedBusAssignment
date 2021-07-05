@@ -1,32 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[login is successful]]>
+    </line>
+    <line>
+      <![CDATA[src,dest,date fields are filled and search clicked]]>
+    </line>
+    <line>
+      <![CDATA[view seats result displayed]]>
+    </line>
+    <line>
+      <![CDATA[view seats info displayed]]>
+    </line>
+    <line>
+      <![CDATA[seat is selected]]>
+    </line>
+    <line>
+      <![CDATA[trip time 1st option choosed]]>
+    </line>
+    <line>
+      <![CDATA[continue and proceeded with info validation of trip by time and source]]>
+    </line>
+    <line>
+      <![CDATA[navigated to passenger details page]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="181546" started-at="2021-07-05T15:26:37Z" finished-at="2021-07-05T15:29:39Z">
+  <suite name="Default suite" duration-ms="121164" started-at="2021-07-05T21:44:21Z" finished-at="2021-07-05T21:46:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="181546" started-at="2021-07-05T15:26:37Z" finished-at="2021-07-05T15:29:39Z">
+    <test name="Default test" duration-ms="121164" started-at="2021-07-05T21:44:21Z" finished-at="2021-07-05T21:46:22Z">
       <class name="tests.TestsType_BookSeat">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:tests.TestsType_BookSeat@51fadaff]" name="setExtent" is-config="true" duration-ms="63" started-at="2021-07-05T15:26:37Z" finished-at="2021-07-05T15:26:37Z">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:tests.TestsType_BookSeat@544fa968]" name="setExtent" is-config="true" duration-ms="1399" started-at="2021-07-05T21:44:20Z" finished-at="2021-07-05T21:44:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="bookSeat_loggedInRedBusAccount()[pri:0, instance:tests.TestsType_BookSeat@51fadaff]" name="bookSeat_loggedInRedBusAccount" duration-ms="180810" started-at="2021-07-05T15:26:38Z" finished-at="2021-07-05T15:29:38Z">
+        <test-method status="PASS" signature="bookSeat_loggedInRedBusAccount()[pri:0, instance:tests.TestsType_BookSeat@544fa968]" name="bookSeat_loggedInRedBusAccount" duration-ms="121113" started-at="2021-07-05T21:44:21Z" finished-at="2021-07-05T21:46:22Z">
           <reporter-output>
+            <line>
+              <![CDATA[login is successful]]>
+            </line>
+            <line>
+              <![CDATA[src,dest,date fields are filled and search clicked]]>
+            </line>
+            <line>
+              <![CDATA[view seats result displayed]]>
+            </line>
+            <line>
+              <![CDATA[view seats info displayed]]>
+            </line>
+            <line>
+              <![CDATA[seat is selected]]>
+            </line>
+            <line>
+              <![CDATA[trip time 1st option choosed]]>
+            </line>
+            <line>
+              <![CDATA[continue and proceeded with info validation of trip by time and source]]>
+            </line>
+            <line>
+              <![CDATA[navigated to passenger details page]]>
+            </line>
           </reporter-output>
         </test-method> <!-- bookSeat_loggedInRedBusAccount -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_BookSeat@51fadaff]" name="endTestAndCloseBrowser" is-config="true" duration-ms="713" started-at="2021-07-05T15:29:38Z" finished-at="2021-07-05T15:29:39Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_BookSeat@544fa968]" name="endTestAndCloseBrowser" is-config="true" duration-ms="6" started-at="2021-07-05T21:46:22Z" finished-at="2021-07-05T21:46:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=bookSeat_loggedInRedBusAccount status=SUCCESS method=TestsType_BookSeat.bookSeat_loggedInRedBusAccount()[pri:0, instance:tests.TestsType_BookSeat@51fadaff] output={null}]]]>
+                <![CDATA[[TestResult name=bookSeat_loggedInRedBusAccount status=SUCCESS method=TestsType_BookSeat.bookSeat_loggedInRedBusAccount()[pri:0, instance:tests.TestsType_BookSeat@544fa968] output=login is successful]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:tests.TestsType_BookSeat@51fadaff]" name="endReport" is-config="true" duration-ms="165" started-at="2021-07-05T15:29:39Z" finished-at="2021-07-05T15:29:39Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:tests.TestsType_BookSeat@544fa968]" name="endReport" is-config="true" duration-ms="444" started-at="2021-07-05T21:46:22Z" finished-at="2021-07-05T21:46:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->

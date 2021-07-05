@@ -23,7 +23,22 @@ OR<br>
 run via jenkins PFA document<br>
 
 ####GitHub repository link
-https://github.com/PujaAroraad/RedBusAssignment.git
+https://github.com/PujaAroraad/RedBusAssignment.git<br>
 
-**Note:There is hard wait of 3 seconds used on driver within the code as src\main\java\utils.waits.hardWait() function. In case of good network reduce that wait to zero by going to above file location. It is used as without this test cases were failing.**
+**Note:There is hard wait of 3 seconds used on driver within the code as src\main\java\utils.waits.hardWait() function. In case of good network reduce that wait to zero by going to above file location. It is used as without this test cases were failing.**<br>
 
+####About project
+1.The failed screenshots get attached to FailedScreenShots folder and extent report as well.<br>
+2.The Data folder contains the .xlsx files<br>
+3.The src\test\java\tests-> contains the tests files<br>
+4.The src\test\java\reusables-> contains the data fetch operations and reusable test methods as all test cases are independent which uses flow.<br>
+5.The src\main\java\pages->POM implementations<br>
+6.The src\main\java\utils->contains reusable code like screenshots, scroll operation, error_msg, waits <br>
+7.The Resources folder contains .properties files for drivers and other for values. <br>
+8.For browser choice go to \Resources\driver.properties and choose browser as per comments.<br>
+9.Driver folder contains drivers for various browsers.<br>
+10.The project is up and running with all test cases pass.<br>
+
+
+
+please reach out to me in case of test failures. As there may occur login failures with sample accounts email.

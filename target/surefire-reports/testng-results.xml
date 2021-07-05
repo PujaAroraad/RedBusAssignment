@@ -1,86 +1,415 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="16" total="43" passed="25">
+<testng-results skipped="0" failed="0" ignored="16" total="43" passed="27">
   <reporter-output>
+    <line>
+      <![CDATA[login is successful]]>
+    </line>
+    <line>
+      <![CDATA[src,dest,date fields are filled and search clicked]]>
+    </line>
+    <line>
+      <![CDATA[view seats result displayed]]>
+    </line>
+    <line>
+      <![CDATA[view seats info displayed]]>
+    </line>
+    <line>
+      <![CDATA[seat is selected]]>
+    </line>
+    <line>
+      <![CDATA[trip time 1st option choosed]]>
+    </line>
+    <line>
+      <![CDATA[continue and proceeded with info validation of trip by time and source]]>
+    </line>
+    <line>
+      <![CDATA[navigated to passenger details page]]>
+    </line>
+    <line>
+      <![CDATA[facebook browser login]]>
+    </line>
+    <line>
+      <![CDATA[navigate to site home page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to sign in page]]>
+    </line>
+    <line>
+      <![CDATA[sign in with facebook choosed]]>
+    </line>
+    <line>
+      <![CDATA[sign out appers]]>
+    </line>
+    <line>
+      <![CDATA[google browser login]]>
+    </line>
+    <line>
+      <![CDATA[navigate to site home page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to sign in page]]>
+    </line>
+    <line>
+      <![CDATA[sign in with google choosed]]>
+    </line>
+    <line>
+      <![CDATA[sign out appers]]>
+    </line>
+    <line>
+      <![CDATA[navigate to site home page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to sign in page]]>
+    </line>
+    <line>
+      <![CDATA[invalid phn no filled and error msg appears]]>
+    </line>
+    <line>
+      <![CDATA[navigate to site home page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to sign in page]]>
+    </line>
+    <line>
+      <![CDATA[phn no filled without error msg]]>
+    </line>
+    <line>
+      <![CDATA[captcha box appears]]>
+    </line>
+    <line>
+      <![CDATA[navigate to home page]]>
+    </line>
+    <line>
+      <![CDATA[filled details src,dest,date areDelhi Gurgaon 31-8-2021]]>
+    </line>
+    <line>
+      <![CDATA[SearchCityNameAndDateTest_searchtest_Delhi Gurgaon 31-8-2021 test ends]]>
+    </line>
+    <line>
+      <![CDATA[navigate to home page]]>
+    </line>
+    <line>
+      <![CDATA[filled details src,dest,date areAmritsar Chandigarh 29-10-2021]]>
+    </line>
+    <line>
+      <![CDATA[SearchCityNameAndDateTest_searchtest_Amritsar Chandigarh 29-10-2021 test ends]]>
+    </line>
+    <line>
+      <![CDATA[navigate to home page]]>
+    </line>
+    <line>
+      <![CDATA[filled details src,dest,date areLucknow Kanpur 13-12-2021]]>
+    </line>
+    <line>
+      <![CDATA[SearchCityNameAndDateTest_searchtest_Lucknow Kanpur 13-12-2021 test ends]]>
+    </line>
+    <line>
+      <![CDATA[navigated to cancel ticket page and details filled and submit clicked]]>
+    </line>
+    <line>
+      <![CDATA[warning validated]]>
+    </line>
+    <line>
+      <![CDATA[navigated to cancel ticket page and details filled and submit clicked]]>
+    </line>
+    <line>
+      <![CDATA[warning validated]]>
+    </line>
+    <line>
+      <![CDATA[navigated to cancel ticket page and details filled and submit clicked]]>
+    </line>
+    <line>
+      <![CDATA[warning validated]]>
+    </line>
+    <line>
+      <![CDATA[navigated to home page]]>
+    </line>
+    <line>
+      <![CDATA[navigated to cancel ticket page]]>
+    </line>
+    <line>
+      <![CDATA[details filled submit clicked]]>
+    </line>
+    <line>
+      <![CDATA[navigated to changeTravelDate page and details filled and submit clicked]]>
+    </line>
+    <line>
+      <![CDATA[warning validated]]>
+    </line>
+    <line>
+      <![CDATA[navigated to changeTravelDate page and details filled and submit clicked]]>
+    </line>
+    <line>
+      <![CDATA[warning validated]]>
+    </line>
+    <line>
+      <![CDATA[navigated to changeTravelDate page and details filled and submit clicked]]>
+    </line>
+    <line>
+      <![CDATA[warning validated]]>
+    </line>
+    <line>
+      <![CDATA[navigated to home page]]>
+    </line>
+    <line>
+      <![CDATA[navigated to ChangeTravelDate page]]>
+    </line>
+    <line>
+      <![CDATA[details filled submit clicked]]>
+    </line>
+    <line>
+      <![CDATA[navigated to showMyTicket page and details filled and submit clicked]]>
+    </line>
+    <line>
+      <![CDATA[warning validated]]>
+    </line>
+    <line>
+      <![CDATA[navigated to showMyTicket page and details filled and submit clicked]]>
+    </line>
+    <line>
+      <![CDATA[warning validated]]>
+    </line>
+    <line>
+      <![CDATA[navigated to showMyTicket page and details filled and submit clicked]]>
+    </line>
+    <line>
+      <![CDATA[warning validated]]>
+    </line>
+    <line>
+      <![CDATA[navigated to home page]]>
+    </line>
+    <line>
+      <![CDATA[navigated to show my ticket page]]>
+    </line>
+    <line>
+      <![CDATA[details filled and submit clicked]]>
+    </line>
+    <line>
+      <![CDATA[navigated to emailSmsTicket page and details filled and submit clicked]]>
+    </line>
+    <line>
+      <![CDATA[warning validated]]>
+    </line>
+    <line>
+      <![CDATA[navigated to emailSmsTicket page and details filled and submit clicked]]>
+    </line>
+    <line>
+      <![CDATA[warning validated]]>
+    </line>
+    <line>
+      <![CDATA[navigated to emailSmsTicket page and details filled and submit clicked]]>
+    </line>
+    <line>
+      <![CDATA[warning validated]]>
+    </line>
+    <line>
+      <![CDATA[navigated to home page]]>
+    </line>
+    <line>
+      <![CDATA[navigated to EmailSmsTicket page]]>
+    </line>
+    <line>
+      <![CDATA[details filled submit clicked]]>
+    </line>
+    <line>
+      <![CDATA[browser login and then site login]]>
+    </line>
+    <line>
+      <![CDATA[navigated to home page]]>
+    </line>
+    <line>
+      <![CDATA[navigated to help page]]>
+    </line>
+    <line>
+      <![CDATA[popups handled]]>
+    </line>
+    <line>
+      <![CDATA[navigated to newBusBookingHelp]]>
+    </line>
+    <line>
+      <![CDATA[navigated to covid19traveladvisory]]>
+    </line>
+    <line>
+      <![CDATA[navigated to safetyPlusFeatureHelp]]>
+    </line>
+    <line>
+      <![CDATA[navigated to technicalIssuesHelp]]>
+    </line>
+    <line>
+      <![CDATA[navigated to redbusReferralHelp]]>
+    </line>
+    <line>
+      <![CDATA[navigated to offersHelp]]>
+    </line>
+    <line>
+      <![CDATA[navigated to redBusWalletHelp]]>
+    </line>
+    <line>
+      <![CDATA[navigated to rpoolHelp]]>
+    </line>
+    <line>
+      <![CDATA[browser login and then site login]]>
+    </line>
+    <line>
+      <![CDATA[navigated to home page]]>
+    </line>
+    <line>
+      <![CDATA[navigated to help page]]>
+    </line>
+    <line>
+      <![CDATA[popups handled]]>
+    </line>
+    <line>
+      <![CDATA[popups handled]]>
+    </line>
+    <line>
+      <![CDATA[navigated to chats page]]>
+    </line>
+    <line>
+      <![CDATA[view last chat]]>
+    </line>
+    <line>
+      <![CDATA[view previous chat]]>
+    </line>
+    <line>
+      <![CDATA[navigate to home page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to bus hire page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to outstation page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to local page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to airport page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to home page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to bus hire page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to rcommute page]]>
+    </line>
+    <line>
+      <![CDATA[submit clicked without filling fields]]>
+    </line>
+    <line>
+      <![CDATA[error appears]]>
+    </line>
+    <line>
+      <![CDATA[navigate to home page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to bus hire page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to rcommute page]]>
+    </line>
+    <line>
+      <![CDATA[fields filled with invalid credential format]]>
+    </line>
+    <line>
+      <![CDATA[submit clicked]]>
+    </line>
+    <line>
+      <![CDATA[error appears]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="1330932" started-at="2021-07-05T15:44:05Z" finished-at="2021-07-05T16:06:16Z">
+  <suite name="Suite" duration-ms="1093790" started-at="2021-07-05T22:26:24Z" finished-at="2021-07-05T22:44:38Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="1330932" started-at="2021-07-05T15:44:05Z" finished-at="2021-07-05T16:06:16Z">
+    <test name="Test" duration-ms="1093790" started-at="2021-07-05T22:26:24Z" finished-at="2021-07-05T22:44:38Z">
       <class name="tests.TestsType_ChangeTravelDate">
-        <test-method status="PASS" signature="refreshFile()[pri:0, instance:tests.TestsType_ChangeTravelDate@1573f9fc]" name="refreshFile" is-config="true" duration-ms="24" started-at="2021-07-05T15:53:31Z" finished-at="2021-07-05T15:53:31Z">
+        <test-method status="PASS" signature="refreshFile()[pri:0, instance:tests.TestsType_ChangeTravelDate@5542c4ed]" name="refreshFile" is-config="true" duration-ms="64" started-at="2021-07-05T22:34:31Z" finished-at="2021-07-05T22:34:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshFile -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_ChangeTravelDate@1573f9fc]" name="initializeWebDriver" is-config="true" duration-ms="20155" started-at="2021-07-05T15:53:31Z" finished-at="2021-07-05T15:53:51Z">
+        <test-method status="PASS" signature="ChangeTravelDate_invalidtin_invalidemail()[pri:0, instance:tests.TestsType_ChangeTravelDate@5542c4ed]" name="ChangeTravelDate_invalidtin_invalidemail" duration-ms="30117" started-at="2021-07-05T22:34:32Z" finished-at="2021-07-05T22:35:02Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="ChangeTravelDate_invalidtin_invalidemail()[pri:0, instance:tests.TestsType_ChangeTravelDate@1573f9fc]" name="ChangeTravelDate_invalidtin_invalidemail" duration-ms="12960" started-at="2021-07-05T15:53:51Z" finished-at="2021-07-05T15:54:04Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigated to changeTravelDate page and details filled and submit clicked]]>
+            </line>
+            <line>
+              <![CDATA[warning validated]]>
+            </line>
           </reporter-output>
         </test-method> <!-- ChangeTravelDate_invalidtin_invalidemail -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_ChangeTravelDate@1573f9fc]" name="endTestAndCloseBrowser" is-config="true" duration-ms="631" started-at="2021-07-05T15:54:04Z" finished-at="2021-07-05T15:54:04Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_ChangeTravelDate@5542c4ed]" name="endTestAndCloseBrowser" is-config="true" duration-ms="1" started-at="2021-07-05T22:35:02Z" finished-at="2021-07-05T22:35:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ChangeTravelDate_invalidtin_invalidemail status=SUCCESS method=TestsType_ChangeTravelDate.ChangeTravelDate_invalidtin_invalidemail()[pri:0, instance:tests.TestsType_ChangeTravelDate@1573f9fc] output={null}]]]>
+                <![CDATA[[TestResult name=ChangeTravelDate_invalidtin_invalidemail status=SUCCESS method=TestsType_ChangeTravelDate.ChangeTravelDate_invalidtin_invalidemail()[pri:0, instance:tests.TestsType_ChangeTravelDate@5542c4ed] output=navigated to changeTravelDate page and details filled and submit clicked]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_ChangeTravelDate@1573f9fc]" name="initializeWebDriver" is-config="true" duration-ms="25323" started-at="2021-07-05T15:54:04Z" finished-at="2021-07-05T15:54:30Z">
+        <test-method status="PASS" signature="ChangeTravelDate_invalidtin_validemail()[pri:0, instance:tests.TestsType_ChangeTravelDate@5542c4ed]" name="ChangeTravelDate_invalidtin_validemail" duration-ms="22181" started-at="2021-07-05T22:35:02Z" finished-at="2021-07-05T22:35:24Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="ChangeTravelDate_invalidtin_validemail()[pri:0, instance:tests.TestsType_ChangeTravelDate@1573f9fc]" name="ChangeTravelDate_invalidtin_validemail" duration-ms="12985" started-at="2021-07-05T15:54:30Z" finished-at="2021-07-05T15:54:43Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigated to changeTravelDate page and details filled and submit clicked]]>
+            </line>
+            <line>
+              <![CDATA[warning validated]]>
+            </line>
           </reporter-output>
         </test-method> <!-- ChangeTravelDate_invalidtin_validemail -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_ChangeTravelDate@1573f9fc]" name="endTestAndCloseBrowser" is-config="true" duration-ms="635" started-at="2021-07-05T15:54:43Z" finished-at="2021-07-05T15:54:43Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_ChangeTravelDate@5542c4ed]" name="endTestAndCloseBrowser" is-config="true" duration-ms="0" started-at="2021-07-05T22:35:24Z" finished-at="2021-07-05T22:35:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ChangeTravelDate_invalidtin_validemail status=SUCCESS method=TestsType_ChangeTravelDate.ChangeTravelDate_invalidtin_validemail()[pri:0, instance:tests.TestsType_ChangeTravelDate@1573f9fc] output={null}]]]>
+                <![CDATA[[TestResult name=ChangeTravelDate_invalidtin_validemail status=SUCCESS method=TestsType_ChangeTravelDate.ChangeTravelDate_invalidtin_validemail()[pri:0, instance:tests.TestsType_ChangeTravelDate@5542c4ed] output=navigated to changeTravelDate page and details filled and submit clicked]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_ChangeTravelDate@1573f9fc]" name="initializeWebDriver" is-config="true" duration-ms="25231" started-at="2021-07-05T15:54:43Z" finished-at="2021-07-05T15:55:08Z">
+        <test-method status="PASS" signature="ChangeTravelDate_validtin_invalidemail()[pri:0, instance:tests.TestsType_ChangeTravelDate@5542c4ed]" name="ChangeTravelDate_validtin_invalidemail" duration-ms="21077" started-at="2021-07-05T22:35:24Z" finished-at="2021-07-05T22:35:45Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="ChangeTravelDate_validtin_invalidemail()[pri:0, instance:tests.TestsType_ChangeTravelDate@1573f9fc]" name="ChangeTravelDate_validtin_invalidemail" duration-ms="12911" started-at="2021-07-05T15:55:08Z" finished-at="2021-07-05T15:55:21Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigated to changeTravelDate page and details filled and submit clicked]]>
+            </line>
+            <line>
+              <![CDATA[warning validated]]>
+            </line>
           </reporter-output>
         </test-method> <!-- ChangeTravelDate_validtin_invalidemail -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_ChangeTravelDate@1573f9fc]" name="endTestAndCloseBrowser" is-config="true" duration-ms="648" started-at="2021-07-05T15:55:21Z" finished-at="2021-07-05T15:55:22Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_ChangeTravelDate@5542c4ed]" name="endTestAndCloseBrowser" is-config="true" duration-ms="1" started-at="2021-07-05T22:35:45Z" finished-at="2021-07-05T22:35:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ChangeTravelDate_validtin_invalidemail status=SUCCESS method=TestsType_ChangeTravelDate.ChangeTravelDate_validtin_invalidemail()[pri:0, instance:tests.TestsType_ChangeTravelDate@1573f9fc] output={null}]]]>
+                <![CDATA[[TestResult name=ChangeTravelDate_validtin_invalidemail status=SUCCESS method=TestsType_ChangeTravelDate.ChangeTravelDate_validtin_invalidemail()[pri:0, instance:tests.TestsType_ChangeTravelDate@5542c4ed] output=navigated to changeTravelDate page and details filled and submit clicked]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_ChangeTravelDate@1573f9fc]" name="initializeWebDriver" is-config="true" duration-ms="25289" started-at="2021-07-05T15:55:22Z" finished-at="2021-07-05T15:55:47Z">
+        <test-method status="PASS" signature="ChangeTravelDate_validtin_validemail()[pri:0, instance:tests.TestsType_ChangeTravelDate@5542c4ed]" name="ChangeTravelDate_validtin_validemail" duration-ms="19147" started-at="2021-07-05T22:35:45Z" finished-at="2021-07-05T22:36:04Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="ChangeTravelDate_validtin_validemail()[pri:0, instance:tests.TestsType_ChangeTravelDate@1573f9fc]" name="ChangeTravelDate_validtin_validemail" duration-ms="10002" started-at="2021-07-05T15:55:47Z" finished-at="2021-07-05T15:55:57Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigated to home page]]>
+            </line>
+            <line>
+              <![CDATA[navigated to ChangeTravelDate page]]>
+            </line>
+            <line>
+              <![CDATA[details filled submit clicked]]>
+            </line>
           </reporter-output>
         </test-method> <!-- ChangeTravelDate_validtin_validemail -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_ChangeTravelDate@1573f9fc]" name="endTestAndCloseBrowser" is-config="true" duration-ms="625" started-at="2021-07-05T15:55:57Z" finished-at="2021-07-05T15:55:58Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_ChangeTravelDate@5542c4ed]" name="endTestAndCloseBrowser" is-config="true" duration-ms="1" started-at="2021-07-05T22:36:04Z" finished-at="2021-07-05T22:36:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ChangeTravelDate_validtin_validemail status=SUCCESS method=TestsType_ChangeTravelDate.ChangeTravelDate_validtin_validemail()[pri:0, instance:tests.TestsType_ChangeTravelDate@1573f9fc] output={null}]]]>
+                <![CDATA[[TestResult name=ChangeTravelDate_validtin_validemail status=SUCCESS method=TestsType_ChangeTravelDate.ChangeTravelDate_validtin_validemail()[pri:0, instance:tests.TestsType_ChangeTravelDate@5542c4ed] output=navigated to home page]]]>
               </value>
             </param>
           </params>
@@ -89,86 +418,142 @@
         </test-method> <!-- endTestAndCloseBrowser -->
       </class> <!-- tests.TestsType_ChangeTravelDate -->
       <class name="tests.TestsType_BookSeat">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:tests.TestsType_BookSeat@7586beff]" name="setExtent" is-config="true" duration-ms="123" started-at="2021-07-05T15:44:05Z" finished-at="2021-07-05T15:44:05Z">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:tests.TestsType_BookSeat@4c12331b]" name="setExtent" is-config="true" duration-ms="995" started-at="2021-07-05T22:26:23Z" finished-at="2021-07-05T22:26:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_BookSeat@7586beff]" name="initializeWebDriver" is-config="true" duration-ms="26888" started-at="2021-07-05T15:44:05Z" finished-at="2021-07-05T15:44:32Z">
+        <test-method status="PASS" signature="bookSeat_loggedInRedBusAccount()[pri:0, instance:tests.TestsType_BookSeat@4c12331b]" name="bookSeat_loggedInRedBusAccount" duration-ms="120678" started-at="2021-07-05T22:26:24Z" finished-at="2021-07-05T22:28:25Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="bookSeat_loggedInRedBusAccount()[pri:0, instance:tests.TestsType_BookSeat@7586beff]" name="bookSeat_loggedInRedBusAccount" duration-ms="101444" started-at="2021-07-05T15:44:32Z" finished-at="2021-07-05T15:46:13Z">
-          <reporter-output>
+            <line>
+              <![CDATA[login is successful]]>
+            </line>
+            <line>
+              <![CDATA[src,dest,date fields are filled and search clicked]]>
+            </line>
+            <line>
+              <![CDATA[view seats result displayed]]>
+            </line>
+            <line>
+              <![CDATA[view seats info displayed]]>
+            </line>
+            <line>
+              <![CDATA[seat is selected]]>
+            </line>
+            <line>
+              <![CDATA[trip time 1st option choosed]]>
+            </line>
+            <line>
+              <![CDATA[continue and proceeded with info validation of trip by time and source]]>
+            </line>
+            <line>
+              <![CDATA[navigated to passenger details page]]>
+            </line>
           </reporter-output>
         </test-method> <!-- bookSeat_loggedInRedBusAccount -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_BookSeat@7586beff]" name="endTestAndCloseBrowser" is-config="true" duration-ms="691" started-at="2021-07-05T15:46:13Z" finished-at="2021-07-05T15:46:14Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_BookSeat@4c12331b]" name="endTestAndCloseBrowser" is-config="true" duration-ms="18" started-at="2021-07-05T22:28:25Z" finished-at="2021-07-05T22:28:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=bookSeat_loggedInRedBusAccount status=SUCCESS method=TestsType_BookSeat.bookSeat_loggedInRedBusAccount()[pri:0, instance:tests.TestsType_BookSeat@7586beff] output={null}]]]>
+                <![CDATA[[TestResult name=bookSeat_loggedInRedBusAccount status=SUCCESS method=TestsType_BookSeat.bookSeat_loggedInRedBusAccount()[pri:0, instance:tests.TestsType_BookSeat@4c12331b] output=login is successful]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:tests.TestsType_BookSeat@7586beff]" name="endReport" is-config="true" duration-ms="222" started-at="2021-07-05T16:06:16Z" finished-at="2021-07-05T16:06:16Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:tests.TestsType_BookSeat@4c12331b]" name="endReport" is-config="true" duration-ms="558" started-at="2021-07-05T22:44:38Z" finished-at="2021-07-05T22:44:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- tests.TestsType_BookSeat -->
       <class name="tests.TestsType_BusHire">
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_BusHire@dd05255]" name="initializeWebDriver" is-config="true" duration-ms="25252" started-at="2021-07-05T16:03:33Z" finished-at="2021-07-05T16:03:58Z">
+        <test-method status="PASS" signature="busHireOptionsNavigationTest()[pri:0, instance:tests.TestsType_BusHire@7e6f74c]" name="busHireOptionsNavigationTest" duration-ms="55389" started-at="2021-07-05T22:42:29Z" finished-at="2021-07-05T22:43:24Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="busHireOptionsNavigationTest()[pri:0, instance:tests.TestsType_BusHire@dd05255]" name="busHireOptionsNavigationTest" duration-ms="32417" started-at="2021-07-05T16:03:58Z" finished-at="2021-07-05T16:04:31Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigate to home page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to bus hire page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to outstation page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to local page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to airport page]]>
+            </line>
           </reporter-output>
         </test-method> <!-- busHireOptionsNavigationTest -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_BusHire@dd05255]" name="endTestAndCloseBrowser" is-config="true" duration-ms="709" started-at="2021-07-05T16:04:31Z" finished-at="2021-07-05T16:04:31Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_BusHire@7e6f74c]" name="endTestAndCloseBrowser" is-config="true" duration-ms="0" started-at="2021-07-05T22:43:24Z" finished-at="2021-07-05T22:43:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=busHireOptionsNavigationTest status=SUCCESS method=TestsType_BusHire.busHireOptionsNavigationTest()[pri:0, instance:tests.TestsType_BusHire@dd05255] output={null}]]]>
+                <![CDATA[[TestResult name=busHireOptionsNavigationTest status=SUCCESS method=TestsType_BusHire.busHireOptionsNavigationTest()[pri:0, instance:tests.TestsType_BusHire@7e6f74c] output=navigate to home page]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_BusHire@dd05255]" name="initializeWebDriver" is-config="true" duration-ms="25299" started-at="2021-07-05T16:04:31Z" finished-at="2021-07-05T16:04:57Z">
+        <test-method status="PASS" signature="employeeTransportTest_Invalid_BlankFields()[pri:0, instance:tests.TestsType_BusHire@7e6f74c]" name="employeeTransportTest_Invalid_BlankFields" duration-ms="35516" started-at="2021-07-05T22:43:24Z" finished-at="2021-07-05T22:44:00Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="employeeTransportTest_Invalid_BlankFields()[pri:0, instance:tests.TestsType_BusHire@dd05255]" name="employeeTransportTest_Invalid_BlankFields" duration-ms="26493" started-at="2021-07-05T16:04:57Z" finished-at="2021-07-05T16:05:23Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigate to home page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to bus hire page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to rcommute page]]>
+            </line>
+            <line>
+              <![CDATA[submit clicked without filling fields]]>
+            </line>
+            <line>
+              <![CDATA[error appears]]>
+            </line>
           </reporter-output>
         </test-method> <!-- employeeTransportTest_Invalid_BlankFields -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_BusHire@dd05255]" name="endTestAndCloseBrowser" is-config="true" duration-ms="651" started-at="2021-07-05T16:05:23Z" finished-at="2021-07-05T16:05:24Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_BusHire@7e6f74c]" name="endTestAndCloseBrowser" is-config="true" duration-ms="1" started-at="2021-07-05T22:44:00Z" finished-at="2021-07-05T22:44:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=employeeTransportTest_Invalid_BlankFields status=SUCCESS method=TestsType_BusHire.employeeTransportTest_Invalid_BlankFields()[pri:0, instance:tests.TestsType_BusHire@dd05255] output={null}]]]>
+                <![CDATA[[TestResult name=employeeTransportTest_Invalid_BlankFields status=SUCCESS method=TestsType_BusHire.employeeTransportTest_Invalid_BlankFields()[pri:0, instance:tests.TestsType_BusHire@7e6f74c] output=navigate to home page]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_BusHire@dd05255]" name="initializeWebDriver" is-config="true" duration-ms="25257" started-at="2021-07-05T16:05:24Z" finished-at="2021-07-05T16:05:49Z">
+        <test-method status="PASS" signature="employeeTransportTest_invalidEmailAndPhn()[pri:0, instance:tests.TestsType_BusHire@7e6f74c]" name="employeeTransportTest_invalidEmailAndPhn" duration-ms="38525" started-at="2021-07-05T22:44:00Z" finished-at="2021-07-05T22:44:38Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="employeeTransportTest_invalidEmailAndPhn()[pri:0, instance:tests.TestsType_BusHire@dd05255]" name="employeeTransportTest_invalidEmailAndPhn" duration-ms="26246" started-at="2021-07-05T16:05:49Z" finished-at="2021-07-05T16:06:15Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigate to home page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to bus hire page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to rcommute page]]>
+            </line>
+            <line>
+              <![CDATA[fields filled with invalid credential format]]>
+            </line>
+            <line>
+              <![CDATA[submit clicked]]>
+            </line>
+            <line>
+              <![CDATA[error appears]]>
+            </line>
           </reporter-output>
         </test-method> <!-- employeeTransportTest_invalidEmailAndPhn -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_BusHire@dd05255]" name="endTestAndCloseBrowser" is-config="true" duration-ms="636" started-at="2021-07-05T16:06:15Z" finished-at="2021-07-05T16:06:16Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_BusHire@7e6f74c]" name="endTestAndCloseBrowser" is-config="true" duration-ms="1" started-at="2021-07-05T22:44:38Z" finished-at="2021-07-05T22:44:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=employeeTransportTest_invalidEmailAndPhn status=SUCCESS method=TestsType_BusHire.employeeTransportTest_invalidEmailAndPhn()[pri:0, instance:tests.TestsType_BusHire@dd05255] output={null}]]]>
+                <![CDATA[[TestResult name=employeeTransportTest_invalidEmailAndPhn status=SUCCESS method=TestsType_BusHire.employeeTransportTest_invalidEmailAndPhn()[pri:0, instance:tests.TestsType_BusHire@7e6f74c] output=navigate to home page]]]>
               </value>
             </param>
           </params>
@@ -176,102 +561,47 @@
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
       </class> <!-- tests.TestsType_BusHire -->
-      <class name="tests.TestsType_Login">
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_Login@3b69e7d1]" name="initializeWebDriver" is-config="true" duration-ms="11415" started-at="2021-07-05T15:46:14Z" finished-at="2021-07-05T15:46:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="loginWithFacebookTest()[pri:0, instance:tests.TestsType_Login@3b69e7d1]" name="loginWithFacebookTest" duration-ms="45477" started-at="2021-07-05T15:46:25Z" finished-at="2021-07-05T15:47:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithFacebookTest -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_Login@3b69e7d1]" name="endTestAndCloseBrowser" is-config="true" duration-ms="674" started-at="2021-07-05T15:47:11Z" finished-at="2021-07-05T15:47:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginWithFacebookTest status=SUCCESS method=TestsType_Login.loginWithFacebookTest()[pri:0, instance:tests.TestsType_Login@3b69e7d1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_Login@3b69e7d1]" name="initializeWebDriver" is-config="true" duration-ms="25274" started-at="2021-07-05T15:47:11Z" finished-at="2021-07-05T15:47:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="loginWithGoogleTest()[pri:0, instance:tests.TestsType_Login@3b69e7d1]" name="loginWithGoogleTest" duration-ms="60925" started-at="2021-07-05T15:47:37Z" finished-at="2021-07-05T15:48:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithGoogleTest -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_Login@3b69e7d1]" name="endTestAndCloseBrowser" is-config="true" duration-ms="641" started-at="2021-07-05T15:48:38Z" finished-at="2021-07-05T15:48:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginWithGoogleTest status=SUCCESS method=TestsType_Login.loginWithGoogleTest()[pri:0, instance:tests.TestsType_Login@3b69e7d1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_Login@3b69e7d1]" name="initializeWebDriver" is-config="true" duration-ms="25447" started-at="2021-07-05T15:48:38Z" finished-at="2021-07-05T15:49:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="loginWithPhnNoInValidTest()[pri:0, instance:tests.TestsType_Login@3b69e7d1]" name="loginWithPhnNoInValidTest" duration-ms="15445" started-at="2021-07-05T15:49:04Z" finished-at="2021-07-05T15:49:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithPhnNoInValidTest -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_Login@3b69e7d1]" name="endTestAndCloseBrowser" is-config="true" duration-ms="659" started-at="2021-07-05T15:49:19Z" finished-at="2021-07-05T15:49:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginWithPhnNoInValidTest status=SUCCESS method=TestsType_Login.loginWithPhnNoInValidTest()[pri:0, instance:tests.TestsType_Login@3b69e7d1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_Login@3b69e7d1]" name="initializeWebDriver" is-config="true" duration-ms="13177" started-at="2021-07-05T15:49:20Z" finished-at="2021-07-05T15:49:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="loginWithPhnNoValidTest()[pri:0, instance:tests.TestsType_Login@3b69e7d1]" name="loginWithPhnNoValidTest" duration-ms="15459" started-at="2021-07-05T15:49:33Z" finished-at="2021-07-05T15:49:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithPhnNoValidTest -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_Login@3b69e7d1]" name="endTestAndCloseBrowser" is-config="true" duration-ms="648" started-at="2021-07-05T15:49:49Z" finished-at="2021-07-05T15:49:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginWithPhnNoValidTest status=SUCCESS method=TestsType_Login.loginWithPhnNoValidTest()[pri:0, instance:tests.TestsType_Login@3b69e7d1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTestAndCloseBrowser -->
-      </class> <!-- tests.TestsType_Login -->
       <class name="tests.TestsType_SearchCityNameAndDateTest">
-        <test-method status="PASS" signature="refreshFile()[pri:0, instance:tests.TestsType_SearchCityNameAndDateTest@815b41f]" name="refreshFile" is-config="true" duration-ms="348" started-at="2021-07-05T15:49:49Z" finished-at="2021-07-05T15:49:50Z">
+        <test-method status="PASS" signature="refreshFile()[pri:0, instance:tests.TestsType_SearchCityNameAndDateTest@3b69e7d1]" name="refreshFile" is-config="true" duration-ms="129" started-at="2021-07-05T22:31:36Z" finished-at="2021-07-05T22:31:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshFile -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_SearchCityNameAndDateTest@815b41f]" name="initializeWebDriver" is-config="true" duration-ms="25254" started-at="2021-07-05T15:49:50Z" finished-at="2021-07-05T15:50:15Z">
+        <test-method status="PASS" signature="searchtest()[pri:0, instance:tests.TestsType_SearchCityNameAndDateTest@3b69e7d1]" name="searchtest" duration-ms="88265" started-at="2021-07-05T22:31:36Z" finished-at="2021-07-05T22:33:04Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="searchtest()[pri:0, instance:tests.TestsType_SearchCityNameAndDateTest@815b41f]" name="searchtest" duration-ms="77259" started-at="2021-07-05T15:50:15Z" finished-at="2021-07-05T15:51:32Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigate to home page]]>
+            </line>
+            <line>
+              <![CDATA[filled details src,dest,date areDelhi Gurgaon 31-8-2021]]>
+            </line>
+            <line>
+              <![CDATA[SearchCityNameAndDateTest_searchtest_Delhi Gurgaon 31-8-2021 test ends]]>
+            </line>
+            <line>
+              <![CDATA[navigate to home page]]>
+            </line>
+            <line>
+              <![CDATA[filled details src,dest,date areAmritsar Chandigarh 29-10-2021]]>
+            </line>
+            <line>
+              <![CDATA[SearchCityNameAndDateTest_searchtest_Amritsar Chandigarh 29-10-2021 test ends]]>
+            </line>
+            <line>
+              <![CDATA[navigate to home page]]>
+            </line>
+            <line>
+              <![CDATA[filled details src,dest,date areLucknow Kanpur 13-12-2021]]>
+            </line>
+            <line>
+              <![CDATA[SearchCityNameAndDateTest_searchtest_Lucknow Kanpur 13-12-2021 test ends]]>
+            </line>
           </reporter-output>
         </test-method> <!-- searchtest -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_SearchCityNameAndDateTest@815b41f]" name="endTestAndCloseBrowser" is-config="true" duration-ms="741" started-at="2021-07-05T15:51:32Z" finished-at="2021-07-05T15:51:33Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_SearchCityNameAndDateTest@3b69e7d1]" name="endTestAndCloseBrowser" is-config="true" duration-ms="1" started-at="2021-07-05T22:33:04Z" finished-at="2021-07-05T22:33:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchtest status=SUCCESS method=TestsType_SearchCityNameAndDateTest.searchtest()[pri:0, instance:tests.TestsType_SearchCityNameAndDateTest@815b41f] output={null}]]]>
+                <![CDATA[[TestResult name=searchtest status=SUCCESS method=TestsType_SearchCityNameAndDateTest.searchtest()[pri:0, instance:tests.TestsType_SearchCityNameAndDateTest@3b69e7d1] output=navigate to home page]]]>
               </value>
             </param>
           </params>
@@ -279,81 +609,205 @@
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
       </class> <!-- tests.TestsType_SearchCityNameAndDateTest -->
+      <class name="tests.TestsType_Login">
+        <test-method status="PASS" signature="loginWithFacebookTest()[pri:0, instance:tests.TestsType_Login@7586beff]" name="loginWithFacebookTest" duration-ms="59324" started-at="2021-07-05T22:28:25Z" finished-at="2021-07-05T22:29:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[facebook browser login]]>
+            </line>
+            <line>
+              <![CDATA[navigate to site home page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to sign in page]]>
+            </line>
+            <line>
+              <![CDATA[sign in with facebook choosed]]>
+            </line>
+            <line>
+              <![CDATA[sign out appers]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithFacebookTest -->
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_Login@7586beff]" name="endTestAndCloseBrowser" is-config="true" duration-ms="2" started-at="2021-07-05T22:29:24Z" finished-at="2021-07-05T22:29:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithFacebookTest status=SUCCESS method=TestsType_Login.loginWithFacebookTest()[pri:0, instance:tests.TestsType_Login@7586beff] output=facebook browser login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndCloseBrowser -->
+        <test-method status="PASS" signature="loginWithGoogleTest()[pri:0, instance:tests.TestsType_Login@7586beff]" name="loginWithGoogleTest" duration-ms="80700" started-at="2021-07-05T22:29:25Z" finished-at="2021-07-05T22:30:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[google browser login]]>
+            </line>
+            <line>
+              <![CDATA[navigate to site home page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to sign in page]]>
+            </line>
+            <line>
+              <![CDATA[sign in with google choosed]]>
+            </line>
+            <line>
+              <![CDATA[sign out appers]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithGoogleTest -->
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_Login@7586beff]" name="endTestAndCloseBrowser" is-config="true" duration-ms="0" started-at="2021-07-05T22:30:45Z" finished-at="2021-07-05T22:30:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithGoogleTest status=SUCCESS method=TestsType_Login.loginWithGoogleTest()[pri:0, instance:tests.TestsType_Login@7586beff] output=google browser login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndCloseBrowser -->
+        <test-method status="PASS" signature="loginWithPhnNoInValidTest()[pri:0, instance:tests.TestsType_Login@7586beff]" name="loginWithPhnNoInValidTest" duration-ms="26310" started-at="2021-07-05T22:30:45Z" finished-at="2021-07-05T22:31:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[navigate to site home page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to sign in page]]>
+            </line>
+            <line>
+              <![CDATA[invalid phn no filled and error msg appears]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithPhnNoInValidTest -->
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_Login@7586beff]" name="endTestAndCloseBrowser" is-config="true" duration-ms="1" started-at="2021-07-05T22:31:12Z" finished-at="2021-07-05T22:31:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithPhnNoInValidTest status=SUCCESS method=TestsType_Login.loginWithPhnNoInValidTest()[pri:0, instance:tests.TestsType_Login@7586beff] output=navigate to site home page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndCloseBrowser -->
+        <test-method status="PASS" signature="loginWithPhnNoValidTest()[pri:0, instance:tests.TestsType_Login@7586beff]" name="loginWithPhnNoValidTest" duration-ms="23996" started-at="2021-07-05T22:31:12Z" finished-at="2021-07-05T22:31:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[navigate to site home page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to sign in page]]>
+            </line>
+            <line>
+              <![CDATA[phn no filled without error msg]]>
+            </line>
+            <line>
+              <![CDATA[captcha box appears]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithPhnNoValidTest -->
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_Login@7586beff]" name="endTestAndCloseBrowser" is-config="true" duration-ms="1" started-at="2021-07-05T22:31:36Z" finished-at="2021-07-05T22:31:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithPhnNoValidTest status=SUCCESS method=TestsType_Login.loginWithPhnNoValidTest()[pri:0, instance:tests.TestsType_Login@7586beff] output=navigate to site home page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndCloseBrowser -->
+      </class> <!-- tests.TestsType_Login -->
       <class name="tests.TestsType_ShowMyTicket">
-        <test-method status="PASS" signature="refreshFile()[pri:0, instance:tests.TestsType_ShowMyTicket@6150c3ec]" name="refreshFile" is-config="true" duration-ms="19" started-at="2021-07-05T15:55:58Z" finished-at="2021-07-05T15:55:58Z">
+        <test-method status="PASS" signature="refreshFile()[pri:0, instance:tests.TestsType_ShowMyTicket@1573f9fc]" name="refreshFile" is-config="true" duration-ms="66" started-at="2021-07-05T22:36:04Z" finished-at="2021-07-05T22:36:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshFile -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_ShowMyTicket@6150c3ec]" name="initializeWebDriver" is-config="true" duration-ms="25237" started-at="2021-07-05T15:55:58Z" finished-at="2021-07-05T15:56:23Z">
+        <test-method status="PASS" signature="showMyTicket_invalidtin_invalidemail()[pri:0, instance:tests.TestsType_ShowMyTicket@1573f9fc]" name="showMyTicket_invalidtin_invalidemail" duration-ms="19254" started-at="2021-07-05T22:36:04Z" finished-at="2021-07-05T22:36:23Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="showMyTicket_invalidtin_invalidemail()[pri:0, instance:tests.TestsType_ShowMyTicket@6150c3ec]" name="showMyTicket_invalidtin_invalidemail" duration-ms="10293" started-at="2021-07-05T15:56:23Z" finished-at="2021-07-05T15:56:33Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigated to showMyTicket page and details filled and submit clicked]]>
+            </line>
+            <line>
+              <![CDATA[warning validated]]>
+            </line>
           </reporter-output>
         </test-method> <!-- showMyTicket_invalidtin_invalidemail -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_ShowMyTicket@6150c3ec]" name="endTestAndCloseBrowser" is-config="true" duration-ms="663" started-at="2021-07-05T15:56:33Z" finished-at="2021-07-05T15:56:34Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_ShowMyTicket@1573f9fc]" name="endTestAndCloseBrowser" is-config="true" duration-ms="0" started-at="2021-07-05T22:36:23Z" finished-at="2021-07-05T22:36:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=showMyTicket_invalidtin_invalidemail status=SUCCESS method=TestsType_ShowMyTicket.showMyTicket_invalidtin_invalidemail()[pri:0, instance:tests.TestsType_ShowMyTicket@6150c3ec] output={null}]]]>
+                <![CDATA[[TestResult name=showMyTicket_invalidtin_invalidemail status=SUCCESS method=TestsType_ShowMyTicket.showMyTicket_invalidtin_invalidemail()[pri:0, instance:tests.TestsType_ShowMyTicket@1573f9fc] output=navigated to showMyTicket page and details filled and submit clicked]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_ShowMyTicket@6150c3ec]" name="initializeWebDriver" is-config="true" duration-ms="25221" started-at="2021-07-05T15:56:34Z" finished-at="2021-07-05T15:56:59Z">
+        <test-method status="PASS" signature="showMyTicket_invalidtin_validemail()[pri:0, instance:tests.TestsType_ShowMyTicket@1573f9fc]" name="showMyTicket_invalidtin_validemail" duration-ms="21748" started-at="2021-07-05T22:36:23Z" finished-at="2021-07-05T22:36:45Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="showMyTicket_invalidtin_validemail()[pri:0, instance:tests.TestsType_ShowMyTicket@6150c3ec]" name="showMyTicket_invalidtin_validemail" duration-ms="10389" started-at="2021-07-05T15:56:59Z" finished-at="2021-07-05T15:57:10Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigated to showMyTicket page and details filled and submit clicked]]>
+            </line>
+            <line>
+              <![CDATA[warning validated]]>
+            </line>
           </reporter-output>
         </test-method> <!-- showMyTicket_invalidtin_validemail -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_ShowMyTicket@6150c3ec]" name="endTestAndCloseBrowser" is-config="true" duration-ms="658" started-at="2021-07-05T15:57:10Z" finished-at="2021-07-05T15:57:10Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_ShowMyTicket@1573f9fc]" name="endTestAndCloseBrowser" is-config="true" duration-ms="2" started-at="2021-07-05T22:36:45Z" finished-at="2021-07-05T22:36:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=showMyTicket_invalidtin_validemail status=SUCCESS method=TestsType_ShowMyTicket.showMyTicket_invalidtin_validemail()[pri:0, instance:tests.TestsType_ShowMyTicket@6150c3ec] output={null}]]]>
+                <![CDATA[[TestResult name=showMyTicket_invalidtin_validemail status=SUCCESS method=TestsType_ShowMyTicket.showMyTicket_invalidtin_validemail()[pri:0, instance:tests.TestsType_ShowMyTicket@1573f9fc] output=navigated to showMyTicket page and details filled and submit clicked]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_ShowMyTicket@6150c3ec]" name="initializeWebDriver" is-config="true" duration-ms="25291" started-at="2021-07-05T15:57:10Z" finished-at="2021-07-05T15:57:36Z">
+        <test-method status="PASS" signature="showMyTicket_validtin_invalidemail()[pri:0, instance:tests.TestsType_ShowMyTicket@1573f9fc]" name="showMyTicket_validtin_invalidemail" duration-ms="19110" started-at="2021-07-05T22:36:45Z" finished-at="2021-07-05T22:37:04Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="showMyTicket_validtin_invalidemail()[pri:0, instance:tests.TestsType_ShowMyTicket@6150c3ec]" name="showMyTicket_validtin_invalidemail" duration-ms="10633" started-at="2021-07-05T15:57:36Z" finished-at="2021-07-05T15:57:46Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigated to showMyTicket page and details filled and submit clicked]]>
+            </line>
+            <line>
+              <![CDATA[warning validated]]>
+            </line>
           </reporter-output>
         </test-method> <!-- showMyTicket_validtin_invalidemail -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_ShowMyTicket@6150c3ec]" name="endTestAndCloseBrowser" is-config="true" duration-ms="636" started-at="2021-07-05T15:57:46Z" finished-at="2021-07-05T15:57:47Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_ShowMyTicket@1573f9fc]" name="endTestAndCloseBrowser" is-config="true" duration-ms="1" started-at="2021-07-05T22:37:04Z" finished-at="2021-07-05T22:37:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=showMyTicket_validtin_invalidemail status=SUCCESS method=TestsType_ShowMyTicket.showMyTicket_validtin_invalidemail()[pri:0, instance:tests.TestsType_ShowMyTicket@6150c3ec] output={null}]]]>
+                <![CDATA[[TestResult name=showMyTicket_validtin_invalidemail status=SUCCESS method=TestsType_ShowMyTicket.showMyTicket_validtin_invalidemail()[pri:0, instance:tests.TestsType_ShowMyTicket@1573f9fc] output=navigated to showMyTicket page and details filled and submit clicked]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_ShowMyTicket@6150c3ec]" name="initializeWebDriver" is-config="true" duration-ms="25245" started-at="2021-07-05T15:57:47Z" finished-at="2021-07-05T15:58:12Z">
+        <test-method status="PASS" signature="showMyTicket_validtin_validemail()[pri:0, instance:tests.TestsType_ShowMyTicket@1573f9fc]" name="showMyTicket_validtin_validemail" duration-ms="20134" started-at="2021-07-05T22:37:04Z" finished-at="2021-07-05T22:37:24Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="showMyTicket_validtin_validemail()[pri:0, instance:tests.TestsType_ShowMyTicket@6150c3ec]" name="showMyTicket_validtin_validemail" duration-ms="10616" started-at="2021-07-05T15:58:12Z" finished-at="2021-07-05T15:58:23Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigated to home page]]>
+            </line>
+            <line>
+              <![CDATA[navigated to show my ticket page]]>
+            </line>
+            <line>
+              <![CDATA[details filled and submit clicked]]>
+            </line>
           </reporter-output>
         </test-method> <!-- showMyTicket_validtin_validemail -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_ShowMyTicket@6150c3ec]" name="endTestAndCloseBrowser" is-config="true" duration-ms="612" started-at="2021-07-05T15:58:23Z" finished-at="2021-07-05T15:58:23Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_ShowMyTicket@1573f9fc]" name="endTestAndCloseBrowser" is-config="true" duration-ms="1" started-at="2021-07-05T22:37:24Z" finished-at="2021-07-05T22:37:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=showMyTicket_validtin_validemail status=SUCCESS method=TestsType_ShowMyTicket.showMyTicket_validtin_validemail()[pri:0, instance:tests.TestsType_ShowMyTicket@6150c3ec] output={null}]]]>
+                <![CDATA[[TestResult name=showMyTicket_validtin_validemail status=SUCCESS method=TestsType_ShowMyTicket.showMyTicket_validtin_validemail()[pri:0, instance:tests.TestsType_ShowMyTicket@1573f9fc] output=navigated to home page]]]>
               </value>
             </param>
           </params>
@@ -362,180 +816,90 @@
         </test-method> <!-- endTestAndCloseBrowser -->
       </class> <!-- tests.TestsType_ShowMyTicket -->
       <class name="tests.TestsType_Help">
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_Help@7e6f74c]" name="initializeWebDriver" is-config="true" duration-ms="25266" started-at="2021-07-05T16:00:33Z" finished-at="2021-07-05T16:00:58Z">
+        <test-method status="PASS" signature="helpTypeNavigationTest()[pri:0, instance:tests.TestsType_Help@44c03695]" name="helpTypeNavigationTest" duration-ms="121830" started-at="2021-07-05T22:39:04Z" finished-at="2021-07-05T22:41:06Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="FAIL" signature="helpTypeNavigationTest()[pri:0, instance:tests.TestsType_Help@7e6f74c]" name="helpTypeNavigationTest" duration-ms="57287" started-at="2021-07-05T16:00:58Z" finished-at="2021-07-05T16:01:55Z">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window
-  (Session info: chrome=91.0.4472.124)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PUJAARORA', ip: '172.22.64.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\PUJAAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0fed5fb2164dbdbbf5addba32817e43b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window
-  (Session info: chrome=91.0.4472.124)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PUJAARORA', ip: '172.22.64.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\PUJAAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0fed5fb2164dbdbbf5addba32817e43b
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy27.click(Unknown Source)
-at pages.HelpPage.click_newBusBookingHelp(HelpPage.java:38)
-at tests.TestsType_Help.helpTypeNavigationTest(TestsType_Help.java:55)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
+            <line>
+              <![CDATA[browser login and then site login]]>
+            </line>
+            <line>
+              <![CDATA[navigated to home page]]>
+            </line>
+            <line>
+              <![CDATA[navigated to help page]]>
+            </line>
+            <line>
+              <![CDATA[popups handled]]>
+            </line>
+            <line>
+              <![CDATA[navigated to newBusBookingHelp]]>
+            </line>
+            <line>
+              <![CDATA[navigated to covid19traveladvisory]]>
+            </line>
+            <line>
+              <![CDATA[navigated to safetyPlusFeatureHelp]]>
+            </line>
+            <line>
+              <![CDATA[navigated to technicalIssuesHelp]]>
+            </line>
+            <line>
+              <![CDATA[navigated to redbusReferralHelp]]>
+            </line>
+            <line>
+              <![CDATA[navigated to offersHelp]]>
+            </line>
+            <line>
+              <![CDATA[navigated to redBusWalletHelp]]>
+            </line>
+            <line>
+              <![CDATA[navigated to rpoolHelp]]>
+            </line>
           </reporter-output>
         </test-method> <!-- helpTypeNavigationTest -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_Help@7e6f74c]" name="endTestAndCloseBrowser" is-config="true" duration-ms="843" started-at="2021-07-05T16:01:55Z" finished-at="2021-07-05T16:01:56Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_Help@44c03695]" name="endTestAndCloseBrowser" is-config="true" duration-ms="1" started-at="2021-07-05T22:41:06Z" finished-at="2021-07-05T22:41:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=helpTypeNavigationTest status=FAILURE method=TestsType_Help.helpTypeNavigationTest()[pri:0, instance:tests.TestsType_Help@7e6f74c] output={null}]]]>
+                <![CDATA[[TestResult name=helpTypeNavigationTest status=SUCCESS method=TestsType_Help.helpTypeNavigationTest()[pri:0, instance:tests.TestsType_Help@44c03695] output=browser login and then site login]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_Help@7e6f74c]" name="initializeWebDriver" is-config="true" duration-ms="25254" started-at="2021-07-05T16:01:56Z" finished-at="2021-07-05T16:02:21Z">
+        <test-method status="PASS" signature="help_viewAllChatsNavigationTest()[pri:0, instance:tests.TestsType_Help@44c03695]" name="help_viewAllChatsNavigationTest" duration-ms="83183" started-at="2021-07-05T22:41:06Z" finished-at="2021-07-05T22:42:29Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="FAIL" signature="help_viewAllChatsNavigationTest()[pri:0, instance:tests.TestsType_Help@7e6f74c]" name="help_viewAllChatsNavigationTest" duration-ms="70542" started-at="2021-07-05T16:02:21Z" finished-at="2021-07-05T16:03:32Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="reactContentMount"]/div/div[2]/div[2]/div"}
-  (Session info: chrome=91.0.4472.124)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PUJAARORA', ip: '172.22.64.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\PUJAAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b328a196b2779d3c223861335253a89a
-*** Element info: {Using=xpath, value=//*[@id="reactContentMount"]/div/div[2]/div[2]/div}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="reactContentMount"]/div/div[2]/div[2]/div"}
-  (Session info: chrome=91.0.4472.124)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PUJAARORA', ip: '172.22.64.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\PUJAAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b328a196b2779d3c223861335253a89a
-*** Element info: {Using=xpath, value=//*[@id="reactContentMount"]/div/div[2]/div[2]/div}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy27.click(Unknown Source)
-at pages.HelpPage.click_viewLastChat(HelpPage.java:85)
-at tests.TestsType_Help.help_viewAllChatsNavigationTest(TestsType_Help.java:180)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
+            <line>
+              <![CDATA[browser login and then site login]]>
+            </line>
+            <line>
+              <![CDATA[navigated to home page]]>
+            </line>
+            <line>
+              <![CDATA[navigated to help page]]>
+            </line>
+            <line>
+              <![CDATA[popups handled]]>
+            </line>
+            <line>
+              <![CDATA[popups handled]]>
+            </line>
+            <line>
+              <![CDATA[navigated to chats page]]>
+            </line>
+            <line>
+              <![CDATA[view last chat]]>
+            </line>
+            <line>
+              <![CDATA[view previous chat]]>
+            </line>
           </reporter-output>
         </test-method> <!-- help_viewAllChatsNavigationTest -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_Help@7e6f74c]" name="endTestAndCloseBrowser" is-config="true" duration-ms="862" started-at="2021-07-05T16:03:32Z" finished-at="2021-07-05T16:03:33Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_Help@44c03695]" name="endTestAndCloseBrowser" is-config="true" duration-ms="2" started-at="2021-07-05T22:42:29Z" finished-at="2021-07-05T22:42:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=help_viewAllChatsNavigationTest status=FAILURE method=TestsType_Help.help_viewAllChatsNavigationTest()[pri:0, instance:tests.TestsType_Help@7e6f74c] output={null}]]]>
+                <![CDATA[[TestResult name=help_viewAllChatsNavigationTest status=SUCCESS method=TestsType_Help.help_viewAllChatsNavigationTest()[pri:0, instance:tests.TestsType_Help@44c03695] output=browser login and then site login]]]>
               </value>
             </param>
           </params>
@@ -544,80 +908,91 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
         </test-method> <!-- endTestAndCloseBrowser -->
       </class> <!-- tests.TestsType_Help -->
       <class name="tests.TestsType_EmailSmsTicket">
-        <test-method status="PASS" signature="refreshFile()[pri:0, instance:tests.TestsType_EmailSmsTicket@44c03695]" name="refreshFile" is-config="true" duration-ms="14" started-at="2021-07-05T15:58:23Z" finished-at="2021-07-05T15:58:23Z">
+        <test-method status="PASS" signature="refreshFile()[pri:0, instance:tests.TestsType_EmailSmsTicket@6150c3ec]" name="refreshFile" is-config="true" duration-ms="63" started-at="2021-07-05T22:37:24Z" finished-at="2021-07-05T22:37:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshFile -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_EmailSmsTicket@44c03695]" name="initializeWebDriver" is-config="true" duration-ms="25254" started-at="2021-07-05T15:58:23Z" finished-at="2021-07-05T15:58:49Z">
+        <test-method status="PASS" signature="emailSmsTicket_invalidtin_invalidemail()[pri:0, instance:tests.TestsType_EmailSmsTicket@6150c3ec]" name="emailSmsTicket_invalidtin_invalidemail" duration-ms="29694" started-at="2021-07-05T22:37:24Z" finished-at="2021-07-05T22:37:54Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="emailSmsTicket_invalidtin_invalidemail()[pri:0, instance:tests.TestsType_EmailSmsTicket@44c03695]" name="emailSmsTicket_invalidtin_invalidemail" duration-ms="11466" started-at="2021-07-05T15:58:49Z" finished-at="2021-07-05T15:59:00Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigated to emailSmsTicket page and details filled and submit clicked]]>
+            </line>
+            <line>
+              <![CDATA[warning validated]]>
+            </line>
           </reporter-output>
         </test-method> <!-- emailSmsTicket_invalidtin_invalidemail -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_EmailSmsTicket@44c03695]" name="endTestAndCloseBrowser" is-config="true" duration-ms="823" started-at="2021-07-05T15:59:00Z" finished-at="2021-07-05T15:59:01Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_EmailSmsTicket@6150c3ec]" name="endTestAndCloseBrowser" is-config="true" duration-ms="1" started-at="2021-07-05T22:37:54Z" finished-at="2021-07-05T22:37:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=emailSmsTicket_invalidtin_invalidemail status=SUCCESS method=TestsType_EmailSmsTicket.emailSmsTicket_invalidtin_invalidemail()[pri:0, instance:tests.TestsType_EmailSmsTicket@44c03695] output={null}]]]>
+                <![CDATA[[TestResult name=emailSmsTicket_invalidtin_invalidemail status=SUCCESS method=TestsType_EmailSmsTicket.emailSmsTicket_invalidtin_invalidemail()[pri:0, instance:tests.TestsType_EmailSmsTicket@6150c3ec] output=navigated to emailSmsTicket page and details filled and submit clicked]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_EmailSmsTicket@44c03695]" name="initializeWebDriver" is-config="true" duration-ms="6489" started-at="2021-07-05T15:59:01Z" finished-at="2021-07-05T15:59:07Z">
+        <test-method status="PASS" signature="emailSmsTicket_invalidtin_validemail()[pri:0, instance:tests.TestsType_EmailSmsTicket@6150c3ec]" name="emailSmsTicket_invalidtin_validemail" duration-ms="20925" started-at="2021-07-05T22:37:54Z" finished-at="2021-07-05T22:38:15Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="emailSmsTicket_invalidtin_validemail()[pri:0, instance:tests.TestsType_EmailSmsTicket@44c03695]" name="emailSmsTicket_invalidtin_validemail" duration-ms="10963" started-at="2021-07-05T15:59:07Z" finished-at="2021-07-05T15:59:18Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigated to emailSmsTicket page and details filled and submit clicked]]>
+            </line>
+            <line>
+              <![CDATA[warning validated]]>
+            </line>
           </reporter-output>
         </test-method> <!-- emailSmsTicket_invalidtin_validemail -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_EmailSmsTicket@44c03695]" name="endTestAndCloseBrowser" is-config="true" duration-ms="862" started-at="2021-07-05T15:59:18Z" finished-at="2021-07-05T15:59:19Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_EmailSmsTicket@6150c3ec]" name="endTestAndCloseBrowser" is-config="true" duration-ms="1" started-at="2021-07-05T22:38:15Z" finished-at="2021-07-05T22:38:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=emailSmsTicket_invalidtin_validemail status=SUCCESS method=TestsType_EmailSmsTicket.emailSmsTicket_invalidtin_validemail()[pri:0, instance:tests.TestsType_EmailSmsTicket@44c03695] output={null}]]]>
+                <![CDATA[[TestResult name=emailSmsTicket_invalidtin_validemail status=SUCCESS method=TestsType_EmailSmsTicket.emailSmsTicket_invalidtin_validemail()[pri:0, instance:tests.TestsType_EmailSmsTicket@6150c3ec] output=navigated to emailSmsTicket page and details filled and submit clicked]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_EmailSmsTicket@44c03695]" name="initializeWebDriver" is-config="true" duration-ms="25613" started-at="2021-07-05T15:59:19Z" finished-at="2021-07-05T15:59:45Z">
+        <test-method status="PASS" signature="emailSmsTicket_validtin_invalidemail()[pri:0, instance:tests.TestsType_EmailSmsTicket@6150c3ec]" name="emailSmsTicket_validtin_invalidemail" duration-ms="20247" started-at="2021-07-05T22:38:15Z" finished-at="2021-07-05T22:38:35Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="emailSmsTicket_validtin_invalidemail()[pri:0, instance:tests.TestsType_EmailSmsTicket@44c03695]" name="emailSmsTicket_validtin_invalidemail" duration-ms="10634" started-at="2021-07-05T15:59:45Z" finished-at="2021-07-05T15:59:56Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigated to emailSmsTicket page and details filled and submit clicked]]>
+            </line>
+            <line>
+              <![CDATA[warning validated]]>
+            </line>
           </reporter-output>
         </test-method> <!-- emailSmsTicket_validtin_invalidemail -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_EmailSmsTicket@44c03695]" name="endTestAndCloseBrowser" is-config="true" duration-ms="661" started-at="2021-07-05T15:59:56Z" finished-at="2021-07-05T15:59:56Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_EmailSmsTicket@6150c3ec]" name="endTestAndCloseBrowser" is-config="true" duration-ms="1" started-at="2021-07-05T22:38:35Z" finished-at="2021-07-05T22:38:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=emailSmsTicket_validtin_invalidemail status=SUCCESS method=TestsType_EmailSmsTicket.emailSmsTicket_validtin_invalidemail()[pri:0, instance:tests.TestsType_EmailSmsTicket@44c03695] output={null}]]]>
+                <![CDATA[[TestResult name=emailSmsTicket_validtin_invalidemail status=SUCCESS method=TestsType_EmailSmsTicket.emailSmsTicket_validtin_invalidemail()[pri:0, instance:tests.TestsType_EmailSmsTicket@6150c3ec] output=navigated to emailSmsTicket page and details filled and submit clicked]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_EmailSmsTicket@44c03695]" name="initializeWebDriver" is-config="true" duration-ms="25287" started-at="2021-07-05T15:59:56Z" finished-at="2021-07-05T16:00:22Z">
+        <test-method status="PASS" signature="emailSmsTicket_validtin_validemail()[pri:0, instance:tests.TestsType_EmailSmsTicket@6150c3ec]" name="emailSmsTicket_validtin_validemail" duration-ms="28489" started-at="2021-07-05T22:38:35Z" finished-at="2021-07-05T22:39:04Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="emailSmsTicket_validtin_validemail()[pri:0, instance:tests.TestsType_EmailSmsTicket@44c03695]" name="emailSmsTicket_validtin_validemail" duration-ms="10644" started-at="2021-07-05T16:00:22Z" finished-at="2021-07-05T16:00:32Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigated to home page]]>
+            </line>
+            <line>
+              <![CDATA[navigated to EmailSmsTicket page]]>
+            </line>
+            <line>
+              <![CDATA[details filled submit clicked]]>
+            </line>
           </reporter-output>
         </test-method> <!-- emailSmsTicket_validtin_validemail -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_EmailSmsTicket@44c03695]" name="endTestAndCloseBrowser" is-config="true" duration-ms="631" started-at="2021-07-05T16:00:32Z" finished-at="2021-07-05T16:00:33Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_EmailSmsTicket@6150c3ec]" name="endTestAndCloseBrowser" is-config="true" duration-ms="1" started-at="2021-07-05T22:39:04Z" finished-at="2021-07-05T22:39:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=emailSmsTicket_validtin_validemail status=SUCCESS method=TestsType_EmailSmsTicket.emailSmsTicket_validtin_validemail()[pri:0, instance:tests.TestsType_EmailSmsTicket@44c03695] output={null}]]]>
+                <![CDATA[[TestResult name=emailSmsTicket_validtin_validemail status=SUCCESS method=TestsType_EmailSmsTicket.emailSmsTicket_validtin_validemail()[pri:0, instance:tests.TestsType_EmailSmsTicket@6150c3ec] output=navigated to home page]]]>
               </value>
             </param>
           </params>
@@ -626,80 +1001,91 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
         </test-method> <!-- endTestAndCloseBrowser -->
       </class> <!-- tests.TestsType_EmailSmsTicket -->
       <class name="tests.TestsType_CancelTicket">
-        <test-method status="PASS" signature="refreshFile()[pri:0, instance:tests.TestsType_CancelTicket@5542c4ed]" name="refreshFile" is-config="true" duration-ms="36" started-at="2021-07-05T15:51:33Z" finished-at="2021-07-05T15:51:33Z">
+        <test-method status="PASS" signature="refreshFile()[pri:0, instance:tests.TestsType_CancelTicket@815b41f]" name="refreshFile" is-config="true" duration-ms="57" started-at="2021-07-05T22:33:04Z" finished-at="2021-07-05T22:33:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshFile -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_CancelTicket@5542c4ed]" name="initializeWebDriver" is-config="true" duration-ms="8899" started-at="2021-07-05T15:51:33Z" finished-at="2021-07-05T15:51:42Z">
+        <test-method status="PASS" signature="cancelTicket_invalidtin_invalidemail()[pri:0, instance:tests.TestsType_CancelTicket@815b41f]" name="cancelTicket_invalidtin_invalidemail" duration-ms="20667" started-at="2021-07-05T22:33:04Z" finished-at="2021-07-05T22:33:25Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="cancelTicket_invalidtin_invalidemail()[pri:0, instance:tests.TestsType_CancelTicket@5542c4ed]" name="cancelTicket_invalidtin_invalidemail" duration-ms="13190" started-at="2021-07-05T15:51:42Z" finished-at="2021-07-05T15:51:55Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigated to cancel ticket page and details filled and submit clicked]]>
+            </line>
+            <line>
+              <![CDATA[warning validated]]>
+            </line>
           </reporter-output>
         </test-method> <!-- cancelTicket_invalidtin_invalidemail -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_CancelTicket@5542c4ed]" name="endTestAndCloseBrowser" is-config="true" duration-ms="665" started-at="2021-07-05T15:51:55Z" finished-at="2021-07-05T15:51:56Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_CancelTicket@815b41f]" name="endTestAndCloseBrowser" is-config="true" duration-ms="0" started-at="2021-07-05T22:33:25Z" finished-at="2021-07-05T22:33:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=cancelTicket_invalidtin_invalidemail status=SUCCESS method=TestsType_CancelTicket.cancelTicket_invalidtin_invalidemail()[pri:0, instance:tests.TestsType_CancelTicket@5542c4ed] output={null}]]]>
+                <![CDATA[[TestResult name=cancelTicket_invalidtin_invalidemail status=SUCCESS method=TestsType_CancelTicket.cancelTicket_invalidtin_invalidemail()[pri:0, instance:tests.TestsType_CancelTicket@815b41f] output=navigated to cancel ticket page and details filled and submit clicked]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_CancelTicket@5542c4ed]" name="initializeWebDriver" is-config="true" duration-ms="25275" started-at="2021-07-05T15:51:56Z" finished-at="2021-07-05T15:52:21Z">
+        <test-method status="PASS" signature="cancelTicket_invalidtin_validemail()[pri:0, instance:tests.TestsType_CancelTicket@815b41f]" name="cancelTicket_invalidtin_validemail" duration-ms="25782" started-at="2021-07-05T22:33:25Z" finished-at="2021-07-05T22:33:50Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="cancelTicket_invalidtin_validemail()[pri:0, instance:tests.TestsType_CancelTicket@5542c4ed]" name="cancelTicket_invalidtin_validemail" duration-ms="13010" started-at="2021-07-05T15:52:21Z" finished-at="2021-07-05T15:52:34Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigated to cancel ticket page and details filled and submit clicked]]>
+            </line>
+            <line>
+              <![CDATA[warning validated]]>
+            </line>
           </reporter-output>
         </test-method> <!-- cancelTicket_invalidtin_validemail -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_CancelTicket@5542c4ed]" name="endTestAndCloseBrowser" is-config="true" duration-ms="693" started-at="2021-07-05T15:52:34Z" finished-at="2021-07-05T15:52:35Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_CancelTicket@815b41f]" name="endTestAndCloseBrowser" is-config="true" duration-ms="1" started-at="2021-07-05T22:33:50Z" finished-at="2021-07-05T22:33:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=cancelTicket_invalidtin_validemail status=SUCCESS method=TestsType_CancelTicket.cancelTicket_invalidtin_validemail()[pri:0, instance:tests.TestsType_CancelTicket@5542c4ed] output={null}]]]>
+                <![CDATA[[TestResult name=cancelTicket_invalidtin_validemail status=SUCCESS method=TestsType_CancelTicket.cancelTicket_invalidtin_validemail()[pri:0, instance:tests.TestsType_CancelTicket@815b41f] output=navigated to cancel ticket page and details filled and submit clicked]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_CancelTicket@5542c4ed]" name="initializeWebDriver" is-config="true" duration-ms="6041" started-at="2021-07-05T15:52:35Z" finished-at="2021-07-05T15:52:41Z">
+        <test-method status="PASS" signature="cancelTicket_validtin_invalidemail()[pri:0, instance:tests.TestsType_CancelTicket@815b41f]" name="cancelTicket_validtin_invalidemail" duration-ms="22579" started-at="2021-07-05T22:33:50Z" finished-at="2021-07-05T22:34:13Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="cancelTicket_validtin_invalidemail()[pri:0, instance:tests.TestsType_CancelTicket@5542c4ed]" name="cancelTicket_validtin_invalidemail" duration-ms="13281" started-at="2021-07-05T15:52:41Z" finished-at="2021-07-05T15:52:54Z">
-          <reporter-output>
+            <line>
+              <![CDATA[navigated to cancel ticket page and details filled and submit clicked]]>
+            </line>
+            <line>
+              <![CDATA[warning validated]]>
+            </line>
           </reporter-output>
         </test-method> <!-- cancelTicket_validtin_invalidemail -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_CancelTicket@5542c4ed]" name="endTestAndCloseBrowser" is-config="true" duration-ms="663" started-at="2021-07-05T15:52:54Z" finished-at="2021-07-05T15:52:55Z">
+        <test-method status="PASS" signature="cancelTicket_validtin_validemail()[pri:0, instance:tests.TestsType_CancelTicket@815b41f]" name="cancelTicket_validtin_validemail" duration-ms="18452" started-at="2021-07-05T22:34:13Z" finished-at="2021-07-05T22:34:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[navigated to home page]]>
+            </line>
+            <line>
+              <![CDATA[navigated to cancel ticket page]]>
+            </line>
+            <line>
+              <![CDATA[details filled submit clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cancelTicket_validtin_validemail -->
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_CancelTicket@815b41f]" name="endTestAndCloseBrowser" is-config="true" duration-ms="0" started-at="2021-07-05T22:34:13Z" finished-at="2021-07-05T22:34:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=cancelTicket_validtin_invalidemail status=SUCCESS method=TestsType_CancelTicket.cancelTicket_validtin_invalidemail()[pri:0, instance:tests.TestsType_CancelTicket@5542c4ed] output={null}]]]>
+                <![CDATA[[TestResult name=cancelTicket_validtin_invalidemail status=SUCCESS method=TestsType_CancelTicket.cancelTicket_validtin_invalidemail()[pri:0, instance:tests.TestsType_CancelTicket@815b41f] output=navigated to cancel ticket page and details filled and submit clicked]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestAndCloseBrowser -->
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:tests.TestsType_CancelTicket@5542c4ed]" name="initializeWebDriver" is-config="true" duration-ms="25243" started-at="2021-07-05T15:52:55Z" finished-at="2021-07-05T15:53:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeWebDriver -->
-        <test-method status="PASS" signature="cancelTicket_validtin_validemail()[pri:0, instance:tests.TestsType_CancelTicket@5542c4ed]" name="cancelTicket_validtin_validemail" duration-ms="10041" started-at="2021-07-05T15:53:20Z" finished-at="2021-07-05T15:53:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cancelTicket_validtin_validemail -->
-        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_CancelTicket@5542c4ed]" name="endTestAndCloseBrowser" is-config="true" duration-ms="698" started-at="2021-07-05T15:53:30Z" finished-at="2021-07-05T15:53:31Z">
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_CancelTicket@815b41f]" name="endTestAndCloseBrowser" is-config="true" duration-ms="2" started-at="2021-07-05T22:34:31Z" finished-at="2021-07-05T22:34:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=cancelTicket_validtin_validemail status=SUCCESS method=TestsType_CancelTicket.cancelTicket_validtin_validemail()[pri:0, instance:tests.TestsType_CancelTicket@5542c4ed] output={null}]]]>
+                <![CDATA[[TestResult name=cancelTicket_validtin_validemail status=SUCCESS method=TestsType_CancelTicket.cancelTicket_validtin_validemail()[pri:0, instance:tests.TestsType_CancelTicket@815b41f] output=navigated to home page]]]>
               </value>
             </param>
           </params>
