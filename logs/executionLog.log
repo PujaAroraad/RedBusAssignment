@@ -1,0 +1,149 @@
+2021-07-05 21:14:05,280 INFO t.Test_BaseTest [main] _____________________NEW SUITE_____________________
+2021-07-05 21:14:32,298 INFO t.TestsType_BookSeat [main] Start test - bookSeat_loggedInRedBusAccount
+2021-07-05 21:15:17,746 INFO t.TestsType_BookSeat [main] login is successful
+2021-07-05 21:15:42,685 INFO t.TestsType_BookSeat [main] src,dest,date fields are filled and search clicked
+2021-07-05 21:16:00,940 INFO t.TestsType_BookSeat [main] view seats result displayed
+2021-07-05 21:16:00,940 INFO t.TestsType_BookSeat [main] view seats info displayed
+2021-07-05 21:16:01,204 INFO t.TestsType_BookSeat [main] seat is selected
+2021-07-05 21:16:04,317 INFO t.TestsType_BookSeat [main] trip time 1st option choosed
+2021-07-05 21:16:10,676 INFO t.TestsType_BookSeat [main] continue and proceeded with info validation of trip by time and source
+2021-07-05 21:16:13,738 INFO t.TestsType_BookSeat [main] navigated to passenger details page
+2021-07-05 21:16:13,738 INFO t.TestsType_BookSeat [main] test end____________________________________________________
+2021-07-05 21:16:25,846 INFO t.TestsType_Login [main] Start test - testCase_loginWithFacebookTest
+2021-07-05 21:16:33,490 INFO t.TestsType_Login [main] facebook browser login
+2021-07-05 21:16:39,961 INFO t.TestsType_Login [main] navigate to site home page
+2021-07-05 21:16:40,934 INFO t.TestsType_Login [main] navigate to sign in page
+2021-07-05 21:16:50,120 INFO t.TestsType_Login [main] sign in with facebook choosed
+2021-07-05 21:17:11,321 INFO t.TestsType_Login [main] sign out appers
+2021-07-05 21:17:11,321 INFO t.TestsType_Login [main] test ends____________________________________________________
+2021-07-05 21:17:37,272 INFO t.TestsType_Login [main] Start test - testCase_loginWithGoogleTest
+2021-07-05 21:17:54,066 INFO t.TestsType_Login [main] google browser login
+2021-07-05 21:17:55,426 INFO t.TestsType_Login [main] navigate to site home page
+2021-07-05 21:18:04,684 INFO t.TestsType_Login [main] navigate to sign in page
+2021-07-05 21:18:07,841 INFO t.TestsType_Login [main] sign in with google choosed
+2021-07-05 21:18:38,195 INFO t.TestsType_Login [main] sign out appers
+2021-07-05 21:18:38,195 INFO t.TestsType_Login [main] test ends____________________________________________________
+2021-07-05 21:19:04,285 INFO t.TestsType_Login [main] Start test - testCase_loginWithPhnNoInValidTest
+2021-07-05 21:19:07,301 INFO t.TestsType_Login [main] navigate to site home page
+2021-07-05 21:19:13,579 INFO t.TestsType_Login [main] navigate to sign in page
+2021-07-05 21:19:19,730 INFO t.TestsType_Login [main] invalid phn no filled and error msg appears
+2021-07-05 21:19:19,730 INFO t.TestsType_Login [main] test ends____________________________________________________
+2021-07-05 21:19:33,568 INFO t.TestsType_Login [main] Start test - testCase_loginWithPhnNoValidTest
+2021-07-05 21:19:36,586 INFO t.TestsType_Login [main] navigate to site home page
+2021-07-05 21:19:42,788 INFO t.TestsType_Login [main] navigate to sign in page
+2021-07-05 21:19:48,997 INFO t.TestsType_Login [main] phn no filled no error msg appears
+2021-07-05 21:19:49,027 INFO t.TestsType_Login [main] captcha box appears
+2021-07-05 21:19:49,027 INFO t.TestsType_Login [main] test ends____________________________________________________
+2021-07-05 21:20:15,277 INFO t.TestsType_SearchCityNameAndDateTest [main] Start - testCase_SearchCityNameAndDateTest_searchtest
+2021-07-05 21:20:15,327 INFO t.TestsType_SearchCityNameAndDateTest [main] navigate to home page
+2021-07-05 21:20:40,370 INFO t.TestsType_SearchCityNameAndDateTest [main] filled details src,dest,date areDelhi Gurgaon 31-8-2021
+2021-07-05 21:20:41,577 INFO t.TestsType_SearchCityNameAndDateTest [main] SearchCityNameAndDateTest_searchtest_Delhi Gurgaon 31-8-2021 test ends
+2021-07-05 21:20:41,581 INFO t.TestsType_SearchCityNameAndDateTest [main] navigate to home page
+2021-07-05 21:21:06,526 INFO t.TestsType_SearchCityNameAndDateTest [main] filled details src,dest,date areAmritsar Chandigarh 29-10-2021
+2021-07-05 21:21:07,080 INFO t.TestsType_SearchCityNameAndDateTest [main] SearchCityNameAndDateTest_searchtest_Amritsar Chandigarh 29-10-2021 test ends
+2021-07-05 21:21:07,086 INFO t.TestsType_SearchCityNameAndDateTest [main] navigate to home page
+2021-07-05 21:21:31,984 INFO t.TestsType_SearchCityNameAndDateTest [main] filled details src,dest,date areLucknow Kanpur 13-12-2021
+2021-07-05 21:21:32,417 INFO t.TestsType_SearchCityNameAndDateTest [main] SearchCityNameAndDateTest_searchtest_Lucknow Kanpur 13-12-2021 test ends
+2021-07-05 21:21:32,536 INFO t.TestsType_SearchCityNameAndDateTest [main] test ends__________________________
+2021-07-05 21:21:42,213 INFO t.TestsType_CancelTicket [main] Start test - testCase_cancelTicket_invalidtin_invalidemail
+2021-07-05 21:21:55,350 INFO t.TestsType_CancelTicket [main] navigated to cancel ticket page and details filled and submit clicked
+2021-07-05 21:21:55,380 INFO t.TestsType_CancelTicket [main] warning validated
+2021-07-05 21:21:55,380 INFO t.TestsType_CancelTicket [main] end test____________________________________________________
+2021-07-05 21:22:21,343 INFO t.TestsType_CancelTicket [main] Start test - testCase_cancelTicket_invalidtin_validemail
+2021-07-05 21:22:34,288 INFO t.TestsType_CancelTicket [main] navigated to cancel ticket page and details filled and submit clicked
+2021-07-05 21:22:34,331 INFO t.TestsType_CancelTicket [main] warning validated
+2021-07-05 21:22:34,332 INFO t.TestsType_CancelTicket [main] end test____________________________________________________
+2021-07-05 21:22:41,088 INFO t.TestsType_CancelTicket [main] Start test - testCase_cancelTicket_validtin_invalidemail
+2021-07-05 21:22:54,309 INFO t.TestsType_CancelTicket [main] navigated to cancel ticket page and details filled and submit clicked
+2021-07-05 21:22:54,356 INFO t.TestsType_CancelTicket [main] warning validated
+2021-07-05 21:22:54,356 INFO t.TestsType_CancelTicket [main] test end____________________________________________________
+2021-07-05 21:23:20,277 INFO t.TestsType_CancelTicket [main] Start test - testCase_cancelTicket_validtin_validemail
+2021-07-05 21:23:20,310 INFO t.TestsType_CancelTicket [main] navigated to home page
+2021-07-05 21:23:27,005 INFO t.TestsType_CancelTicket [main] navigated to cancel ticket page
+2021-07-05 21:23:30,299 INFO t.TestsType_CancelTicket [main] details filled submit clicked
+2021-07-05 21:23:30,300 INFO t.TestsType_CancelTicket [main] end test____________________________________________________
+2021-07-05 21:23:51,197 INFO t.TestsType_ChangeTravelDate [main] Start test - testCase_ChangeTravelDate_invalidtin_invalidemail
+2021-07-05 21:24:04,095 INFO t.TestsType_ChangeTravelDate [main] navigated to changeTravelDate page and details filled and submit clicked
+2021-07-05 21:24:04,138 INFO t.TestsType_ChangeTravelDate [main] warning validated
+2021-07-05 21:24:04,157 INFO t.TestsType_ChangeTravelDate [main] end test____________________________________________________
+2021-07-05 21:24:30,113 INFO t.TestsType_ChangeTravelDate [main] Start test - testCase_ChangeTravelDate_invalidtin_validemail
+2021-07-05 21:24:43,029 INFO t.TestsType_ChangeTravelDate [main] navigated to changeTravelDate page and details filled and submit clicked
+2021-07-05 21:24:43,075 INFO t.TestsType_ChangeTravelDate [main] warning validated
+2021-07-05 21:24:43,097 INFO t.TestsType_ChangeTravelDate [main] end test____________________________________________________
+2021-07-05 21:25:08,963 INFO t.TestsType_ChangeTravelDate [main] Start test - testCase_ChangeTravelDate_validtin_invalidemail
+2021-07-05 21:25:21,836 INFO t.TestsType_ChangeTravelDate [main] navigated to changeTravelDate page and details filled and submit clicked
+2021-07-05 21:25:21,874 INFO t.TestsType_ChangeTravelDate [main] warning validated
+2021-07-05 21:25:21,874 INFO t.TestsType_ChangeTravelDate [main] end test__________________________
+2021-07-05 21:25:47,811 INFO t.TestsType_ChangeTravelDate [main] Start test - testCase_ChangeTravelDate_validtin_validemail
+2021-07-05 21:25:47,843 INFO t.TestsType_ChangeTravelDate [main] navigated to home page
+2021-07-05 21:25:54,555 INFO t.TestsType_ChangeTravelDate [main] navigated to ChangeTravelDate page
+2021-07-05 21:25:57,800 INFO t.TestsType_ChangeTravelDate [main] details filled submit clicked
+2021-07-05 21:25:57,813 INFO t.TestsType_ChangeTravelDate [main] end test____________________________________________________
+2021-07-05 21:26:23,695 INFO t.TestsType_ShowMyTicket [main] Start test - testCase_showMyTicket_invalidtin_invalidemail
+2021-07-05 21:26:33,929 INFO t.TestsType_ShowMyTicket [main] navigated to showMyTicket page and details filled and submit clicked
+2021-07-05 21:26:33,975 INFO t.TestsType_ShowMyTicket [main] warning validated
+2021-07-05 21:26:33,987 INFO t.TestsType_ShowMyTicket [main] end test____________________________________________________
+2021-07-05 21:26:59,872 INFO t.TestsType_ShowMyTicket [main] Start test - testCase_showMyTicket_invalidtin_validemail
+2021-07-05 21:27:10,166 INFO t.TestsType_ShowMyTicket [main] navigated to showMyTicket page and details filled and submit clicked
+2021-07-05 21:27:10,250 INFO t.TestsType_ShowMyTicket [main] warning validated
+2021-07-05 21:27:10,260 INFO t.TestsType_ShowMyTicket [main] end test____________________________________________________
+2021-07-05 21:27:36,211 INFO t.TestsType_ShowMyTicket [main] Start test - testCase_showMyTicket_validtin_invalidemail
+2021-07-05 21:27:46,788 INFO t.TestsType_ShowMyTicket [main] navigated to showMyTicket page and details filled and submit clicked
+2021-07-05 21:27:46,830 INFO t.TestsType_ShowMyTicket [main] warning validated
+2021-07-05 21:27:46,842 INFO t.TestsType_ShowMyTicket [main] end test____________________________________________________
+2021-07-05 21:28:12,725 INFO t.TestsType_ShowMyTicket [main] Start test - testCase_showMyTicket_validtin_validemail
+2021-07-05 21:28:12,744 INFO t.TestsType_ShowMyTicket [main] navigated to home page
+2021-07-05 21:28:19,463 INFO t.TestsType_ShowMyTicket [main] navigated to show my ticket page
+2021-07-05 21:28:23,330 INFO t.TestsType_ShowMyTicket [main] details filled and submit clicked
+2021-07-05 21:28:23,341 INFO t.TestsType_ShowMyTicket [main] end test____________________________________________________
+2021-07-05 21:28:49,221 INFO t.TestsType_EmailSmsTicket [main] Start test - testCase_emailSmsTicket_invalidtin_invalidemail
+2021-07-05 21:29:00,455 INFO t.TestsType_EmailSmsTicket [main] navigated to emailSmsTicket page and details filled and submit clicked
+2021-07-05 21:29:00,653 INFO t.TestsType_EmailSmsTicket [main] warning validated
+2021-07-05 21:29:00,687 INFO t.TestsType_EmailSmsTicket [main] end test____________________________________________________
+2021-07-05 21:29:08,000 INFO t.TestsType_EmailSmsTicket [main] Start test - testCase_emailSmsTicket_invalidtin_validemail
+2021-07-05 21:29:18,881 INFO t.TestsType_EmailSmsTicket [main] navigated to emailSmsTicket page and details filled and submit clicked
+2021-07-05 21:29:18,930 INFO t.TestsType_EmailSmsTicket [main] warning validated
+2021-07-05 21:29:18,962 INFO t.TestsType_EmailSmsTicket [main] end test____________________________________________________
+2021-07-05 21:29:45,438 INFO t.TestsType_EmailSmsTicket [main] Start test - testCase_emailSmsTicket_validtin_invalidemail
+2021-07-05 21:29:56,025 INFO t.TestsType_EmailSmsTicket [main] navigated to emailSmsTicket page and details filled and submit clicked
+2021-07-05 21:29:56,060 INFO t.TestsType_EmailSmsTicket [main] warning validated
+2021-07-05 21:29:56,071 INFO t.TestsType_EmailSmsTicket [main] end test____________________________________________________
+2021-07-05 21:30:22,019 INFO t.TestsType_EmailSmsTicket [main] Start test - testCase_emailSmsTicket_validtin_validemail
+2021-07-05 21:30:25,247 INFO t.TestsType_EmailSmsTicket [main] navigated to home page
+2021-07-05 21:30:28,768 INFO t.TestsType_EmailSmsTicket [main] navigated to EmailSmsTicket page
+2021-07-05 21:30:32,649 INFO t.TestsType_EmailSmsTicket [main] details filled submit clicked
+2021-07-05 21:30:32,663 INFO t.TestsType_EmailSmsTicket [main] end test____________________________________________________
+2021-07-05 21:30:58,562 INFO t.TestsType_Help [main] Start test - testCase_helpTypeNavigationTest
+2021-07-05 21:31:45,850 INFO t.TestsType_Help [main] browser login and then site login
+2021-07-05 21:31:48,877 INFO t.TestsType_Help [main] navigated to home page
+2021-07-05 21:31:49,895 INFO t.TestsType_Help [main] navigated to help page
+2021-07-05 21:31:54,399 INFO t.TestsType_Help [main] popups handled
+2021-07-05 21:32:21,950 INFO t.TestsType_Help [main] Start test - testCase_help_viewAllChatsNavigationTest
+2021-07-05 21:33:08,330 INFO t.TestsType_Help [main] browser login and then site login
+2021-07-05 21:33:08,334 INFO t.TestsType_Help [main] navigated to home page
+2021-07-05 21:33:09,363 INFO t.TestsType_Help [main] navigated to help page
+2021-07-05 21:33:12,494 INFO t.TestsType_Help [main] popups handled
+2021-07-05 21:33:13,766 INFO t.TestsType_Help [main] popups handled
+2021-07-05 21:33:14,436 INFO t.TestsType_Help [main] navigated to chats page
+2021-07-05 21:33:58,607 INFO t.TestsType_BusHire [main] Start test - testCase_busHireOptionsNavigationTest
+2021-07-05 21:34:01,634 INFO t.TestsType_BusHire [main] navigate to home page
+2021-07-05 21:34:06,255 INFO t.TestsType_BusHire [main] navigate to bus hire page
+2021-07-05 21:34:12,501 INFO t.TestsType_BusHire [main] navigate to outstation page
+2021-07-05 21:34:18,775 INFO t.TestsType_BusHire [main] navigate to local page
+2021-07-05 21:34:28,016 INFO t.TestsType_BusHire [main] navigate to airport page
+2021-07-05 21:34:31,024 INFO t.TestsType_BusHire [main] test ends____________________________________________________
+2021-07-05 21:34:57,033 INFO t.TestsType_BusHire [main] Start test - testCase_employeeTransportTest_Invalid_BlankFields
+2021-07-05 21:35:00,054 INFO t.TestsType_BusHire [main] navigate to home page
+2021-07-05 21:35:05,009 INFO t.TestsType_BusHire [main] navigate to bus hire page
+2021-07-05 21:35:14,193 INFO t.TestsType_BusHire [main] navigate to rcommute page
+2021-07-05 21:35:17,326 INFO t.TestsType_BusHire [main] submit clicked without filling fields
+2021-07-05 21:35:23,526 INFO t.TestsType_BusHire [main] error appears
+2021-07-05 21:35:23,526 INFO t.TestsType_BusHire [main] test ends____________________________________________________
+2021-07-05 21:35:49,435 INFO t.TestsType_BusHire [main] Start test - testCase_employeeTransportTest_invalidEmailAndPhn
+2021-07-05 21:35:52,475 INFO t.TestsType_BusHire [main] navigate to home page
+2021-07-05 21:35:56,957 INFO t.TestsType_BusHire [main] navigate to bus hire page
+2021-07-05 21:36:06,153 INFO t.TestsType_BusHire [main] navigate to rcommute page
+2021-07-05 21:36:09,498 INFO t.TestsType_BusHire [main] fields filled with invalid credential format
+2021-07-05 21:36:09,581 INFO t.TestsType_BusHire [main] submit clicked
+2021-07-05 21:36:15,681 INFO t.TestsType_BusHire [main] error appears
+2021-07-05 21:36:15,681 INFO t.TestsType_BusHire [main] test ends____________________________________________________

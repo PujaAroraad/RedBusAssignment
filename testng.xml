@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <!-- <groups>
+  		<run>
+  			<include name=""></include>
+  			<include name=""></include>
+  			<include name=""></include>
+  			<include name=""></include>
+  			<include name=""></include>
+  			<include name=""></include>
+  			<include name=""></include>
+  			<include name=""></include>
+  			<include name=""></include>
+  			<include name=""></include>
+  		</run>
+  	</groups> -->
+    <classes>
+      <class name="tests.TestsType_BookSeat"></class>
+      <class name="tests.TestsType_Login"/>
+      <class name="tests.TestsType_SearchCityNameAndDateTest"></class>
+      <class name="tests.TestsType_CancelTicket"></class>
+      <class name="tests.TestsType_ChangeTravelDate"></class>
+      <class name="tests.TestsType_ShowMyTicket"></class>
+      <class name="tests.TestsType_EmailSmsTicket"></class>
+      <class name="tests.TestsType_Help"></class>
+      <class name="tests.TestsType_BusHire"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

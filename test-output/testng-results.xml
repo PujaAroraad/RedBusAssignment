@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="181546" started-at="2021-07-05T15:26:37Z" finished-at="2021-07-05T15:29:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="181546" started-at="2021-07-05T15:26:37Z" finished-at="2021-07-05T15:29:39Z">
+      <class name="tests.TestsType_BookSeat">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:tests.TestsType_BookSeat@51fadaff]" name="setExtent" is-config="true" duration-ms="63" started-at="2021-07-05T15:26:37Z" finished-at="2021-07-05T15:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="bookSeat_loggedInRedBusAccount()[pri:0, instance:tests.TestsType_BookSeat@51fadaff]" name="bookSeat_loggedInRedBusAccount" duration-ms="180810" started-at="2021-07-05T15:26:38Z" finished-at="2021-07-05T15:29:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookSeat_loggedInRedBusAccount -->
+        <test-method status="PASS" signature="endTestAndCloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.TestsType_BookSeat@51fadaff]" name="endTestAndCloseBrowser" is-config="true" duration-ms="713" started-at="2021-07-05T15:29:38Z" finished-at="2021-07-05T15:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bookSeat_loggedInRedBusAccount status=SUCCESS method=TestsType_BookSeat.bookSeat_loggedInRedBusAccount()[pri:0, instance:tests.TestsType_BookSeat@51fadaff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndCloseBrowser -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:tests.TestsType_BookSeat@51fadaff]" name="endReport" is-config="true" duration-ms="165" started-at="2021-07-05T15:29:39Z" finished-at="2021-07-05T15:29:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- tests.TestsType_BookSeat -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

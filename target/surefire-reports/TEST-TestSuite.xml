@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1,332.707" tests="27" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value=".\\drivers\\chromeDriver\\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\pujaarora\eclipse-workspace\Puja_3164915_RedBus\target\test-classes;C:\Users\pujaarora\eclipse-workspace\Puja_3164915_RedBus\target\classes;C:\Users\pujaarora\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\pujaarora\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\pujaarora\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\pujaarora\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\pujaarora\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\pujaarora\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\pujaarora\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\pujaarora\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\pujaarora\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\pujaarora\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\pujaarora\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\pujaarora\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\pujaarora\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\pujaarora\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\pujaarora\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\pujaarora\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\pujaarora\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\pujaarora\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\pujaarora\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\pujaarora\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\pujaarora\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\pujaarora\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\pujaarora\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\pujaarora\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\pujaarora\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\pujaarora\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\pujaarora\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\pujaarora\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\pujaarora\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\pujaarora\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\pujaarora\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\pujaarora\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\pujaarora\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\pujaarora\AppData\Local\Temp\surefire6785455490626101701\surefirebooter4728623145988103196.jar C:\Users\pujaarora\AppData\Local\Temp\surefire6785455490626101701 2021-07-05T21-14-02_165-jvmRun1 surefire6519367219517721978tmp surefire_02782166299738953559tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\pujaarora\eclipse-workspace\Puja_3164915_RedBus\target\test-classes;C:\Users\pujaarora\eclipse-workspace\Puja_3164915_RedBus\target\classes;C:\Users\pujaarora\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\pujaarora\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\pujaarora\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\pujaarora\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\pujaarora\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\pujaarora\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\pujaarora\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\pujaarora\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\pujaarora\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\pujaarora\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\pujaarora\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\pujaarora\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\pujaarora\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\pujaarora\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\pujaarora\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\pujaarora\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\pujaarora\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\pujaarora\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\pujaarora\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\pujaarora\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\pujaarora\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\pujaarora\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\pujaarora\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\pujaarora\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\pujaarora\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\pujaarora\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\pujaarora\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\pujaarora\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\pujaarora\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\pujaarora\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\pujaarora\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\pujaarora\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\pujaarora\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\pujaarora\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\pujaarora"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="basedir" value="C:\Users\pujaarora\eclipse-workspace\Puja_3164915_RedBus"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\pujaarora\AppData\Local\Temp\surefire6785455490626101701\surefirebooter4728623145988103196.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="pujaarora"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\pujaarora\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\PUJAAR~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="user.dir" value="C:\Users\pujaarora\eclipse-workspace\Puja_3164915_RedBus"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_291/bin/server;C:/Program Files/Java/jre1.8.0_291/bin;C:/Program Files/Java/jre1.8.0_291/lib/amd64;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Java\jre1.8.0_221\bin;C:\Users\pujaarora\AppData\Local\Android\Sdk\platform-tools;C:\Users\pujaarora\AppData\Local\Android\Sdk\tools;C:\Program Files\nodejs\;C:\Program Files\Google\Chrome\Application;C:\Program Files\Git\cmd;C:\Users\pujaarora\AppData\Local\Microsoft\WindowsApps;C:\Users\pujaarora\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Users\pujaarora\AppData\Roaming\npm;C:\Automation - Seti -Software\eclipse-jee-photon-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="bookSeat_loggedInRedBusAccount" classname="tests.TestsType_BookSeat" time="101.433">
+    <system-out><![CDATA[21:14:05.280 [main] INFO  tests.Test_BaseTest - _____________________NEW SUITE_____________________
+21:14:32.298 [main] INFO  tests.TestsType_BookSeat - Start test - bookSeat_loggedInRedBusAccount
+21:15:17.746 [main] INFO  tests.TestsType_BookSeat - login is successful
+Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus IndiaBook Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus IndiafalsefalseAmritsar to Chandigarh Bus Tickets Booking, Save upto 25% - redBus21:15:42.685 [main] INFO  tests.TestsType_BookSeat - src,dest,date fields are filled and search clicked
+21:16:00.940 [main] INFO  tests.TestsType_BookSeat - view seats result displayed
+21:16:00.940 [main] INFO  tests.TestsType_BookSeat - view seats info displayed
+21:16:01.204 [main] INFO  tests.TestsType_BookSeat - seat is selected
+21:16:04.317 [main] INFO  tests.TestsType_BookSeat - trip time 1st option choosed
+21:16:10.676 [main] INFO  tests.TestsType_BookSeat - continue and proceeded with info validation of trip by time and source
+21:16:13.738 [main] INFO  tests.TestsType_BookSeat - navigated to passenger details page
+21:16:13.738 [main] INFO  tests.TestsType_BookSeat - test end____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 14803
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:14:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginWithFacebookTest" classname="tests.TestsType_Login" time="45.47">
+    <system-out><![CDATA[21:16:25.846 [main] INFO  tests.TestsType_Login - Start test - testCase_loginWithFacebookTest
+21:16:33.490 [main] INFO  tests.TestsType_Login - facebook browser login
+21:16:39.961 [main] INFO  tests.TestsType_Login - navigate to site home page
+21:16:40.934 [main] INFO  tests.TestsType_Login - navigate to sign in page
+21:16:50.120 [main] INFO  tests.TestsType_Login - sign in with facebook choosed
+21:17:11.321 [main] INFO  tests.TestsType_Login - sign out appers
+21:17:11.321 [main] INFO  tests.TestsType_Login - test ends____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 36841
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:16:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginWithGoogleTest" classname="tests.TestsType_Login" time="60.92">
+    <system-out><![CDATA[21:17:37.272 [main] INFO  tests.TestsType_Login - Start test - testCase_loginWithGoogleTest
+21:17:54.066 [main] INFO  tests.TestsType_Login - google browser login
+21:17:55.426 [main] INFO  tests.TestsType_Login - navigate to site home page
+21:18:04.684 [main] INFO  tests.TestsType_Login - navigate to sign in page
+21:18:07.841 [main] INFO  tests.TestsType_Login - sign in with google choosed
+21:18:38.195 [main] INFO  tests.TestsType_Login - sign out appers
+21:18:38.195 [main] INFO  tests.TestsType_Login - test ends____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 32981
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:17:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginWithPhnNoInValidTest" classname="tests.TestsType_Login" time="15.439">
+    <system-out><![CDATA[21:19:04.285 [main] INFO  tests.TestsType_Login - Start test - testCase_loginWithPhnNoInValidTest
+21:19:07.301 [main] INFO  tests.TestsType_Login - navigate to site home page
+21:19:13.579 [main] INFO  tests.TestsType_Login - navigate to sign in page
+21:19:19.730 [main] INFO  tests.TestsType_Login - invalid phn no filled and error msg appears
+21:19:19.730 [main] INFO  tests.TestsType_Login - test ends____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 8418
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:18:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginWithPhnNoValidTest" classname="tests.TestsType_Login" time="15.458">
+    <system-out><![CDATA[21:19:33.568 [main] INFO  tests.TestsType_Login - Start test - testCase_loginWithPhnNoValidTest
+21:19:36.586 [main] INFO  tests.TestsType_Login - navigate to site home page
+21:19:42.788 [main] INFO  tests.TestsType_Login - navigate to sign in page
+21:19:48.997 [main] INFO  tests.TestsType_Login - phn no filled no error msg appears
+21:19:49.027 [main] INFO  tests.TestsType_Login - captcha box appears
+21:19:49.027 [main] INFO  tests.TestsType_Login - test ends____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 46633
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:19:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="searchtest" classname="tests.TestsType_SearchCityNameAndDateTest" time="77.259">
+    <system-out><![CDATA[21:20:15.277 [main] INFO  tests.TestsType_SearchCityNameAndDateTest - Start - testCase_SearchCityNameAndDateTest_searchtest
+21:20:15.327 [main] INFO  tests.TestsType_SearchCityNameAndDateTest - navigate to home page
+falsefalseDelhi to Gurgaon Bus Tickets Booking, Save upto 25% - redBus21:20:40.370 [main] INFO  tests.TestsType_SearchCityNameAndDateTest - filled details src,dest,date areDelhi Gurgaon 31-8-2021
+21:20:41.577 [main] INFO  tests.TestsType_SearchCityNameAndDateTest - SearchCityNameAndDateTest_searchtest_Delhi Gurgaon 31-8-2021 test ends
+21:20:41.581 [main] INFO  tests.TestsType_SearchCityNameAndDateTest - navigate to home page
+falsefalseAmritsar to Chandigarh Bus Tickets Booking, Save upto 25% - redBus21:21:06.526 [main] INFO  tests.TestsType_SearchCityNameAndDateTest - filled details src,dest,date areAmritsar Chandigarh 29-10-2021
+21:21:07.080 [main] INFO  tests.TestsType_SearchCityNameAndDateTest - SearchCityNameAndDateTest_searchtest_Amritsar Chandigarh 29-10-2021 test ends
+21:21:07.086 [main] INFO  tests.TestsType_SearchCityNameAndDateTest - navigate to home page
+falsefalseLucknow to Kanpur Bus Tickets Booking, Save upto 25% - redBus21:21:31.984 [main] INFO  tests.TestsType_SearchCityNameAndDateTest - filled details src,dest,date areLucknow Kanpur 13-12-2021
+21:21:32.417 [main] INFO  tests.TestsType_SearchCityNameAndDateTest - SearchCityNameAndDateTest_searchtest_Lucknow Kanpur 13-12-2021 test ends
+21:21:32.536 [main] INFO  tests.TestsType_SearchCityNameAndDateTest - test ends__________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 20456
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:19:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="cancelTicket_invalidtin_invalidemail" classname="tests.TestsType_CancelTicket" time="13.183">
+    <system-out><![CDATA[21:21:42.213 [main] INFO  tests.TestsType_CancelTicket - Start test - testCase_cancelTicket_invalidtin_invalidemail
+21:21:55.350 [main] INFO  tests.TestsType_CancelTicket - navigated to cancel ticket page and details filled and submit clicked
+21:21:55.380 [main] INFO  tests.TestsType_CancelTicket - warning validated
+21:21:55.380 [main] INFO  tests.TestsType_CancelTicket - end test____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 34927
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:21:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="cancelTicket_invalidtin_validemail" classname="tests.TestsType_CancelTicket" time="13.009">
+    <system-out><![CDATA[21:22:21.343 [main] INFO  tests.TestsType_CancelTicket - Start test - testCase_cancelTicket_invalidtin_validemail
+21:22:34.288 [main] INFO  tests.TestsType_CancelTicket - navigated to cancel ticket page and details filled and submit clicked
+21:22:34.331 [main] INFO  tests.TestsType_CancelTicket - warning validated
+21:22:34.332 [main] INFO  tests.TestsType_CancelTicket - end test____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 7506
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:21:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="cancelTicket_validtin_invalidemail" classname="tests.TestsType_CancelTicket" time="13.279">
+    <system-out><![CDATA[21:22:41.088 [main] INFO  tests.TestsType_CancelTicket - Start test - testCase_cancelTicket_validtin_invalidemail
+21:22:54.309 [main] INFO  tests.TestsType_CancelTicket - navigated to cancel ticket page and details filled and submit clicked
+21:22:54.356 [main] INFO  tests.TestsType_CancelTicket - warning validated
+21:22:54.356 [main] INFO  tests.TestsType_CancelTicket - test end____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 37645
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:22:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="cancelTicket_validtin_validemail" classname="tests.TestsType_CancelTicket" time="10.04">
+    <system-out><![CDATA[21:23:20.277 [main] INFO  tests.TestsType_CancelTicket - Start test - testCase_cancelTicket_validtin_validemail
+21:23:20.310 [main] INFO  tests.TestsType_CancelTicket - navigated to home page
+21:23:27.005 [main] INFO  tests.TestsType_CancelTicket - navigated to cancel ticket page
+21:23:30.299 [main] INFO  tests.TestsType_CancelTicket - details filled submit clicked
+21:23:30.300 [main] INFO  tests.TestsType_CancelTicket - end test____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 47605
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:22:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="ChangeTravelDate_invalidtin_invalidemail" classname="tests.TestsType_ChangeTravelDate" time="12.959">
+    <system-out><![CDATA[21:23:51.197 [main] INFO  tests.TestsType_ChangeTravelDate - Start test - testCase_ChangeTravelDate_invalidtin_invalidemail
+21:24:04.095 [main] INFO  tests.TestsType_ChangeTravelDate - navigated to changeTravelDate page and details filled and submit clicked
+21:24:04.138 [main] INFO  tests.TestsType_ChangeTravelDate - warning validated
+21:24:04.157 [main] INFO  tests.TestsType_ChangeTravelDate - end test____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 25497
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:23:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="ChangeTravelDate_invalidtin_validemail" classname="tests.TestsType_ChangeTravelDate" time="12.983">
+    <system-out><![CDATA[21:24:30.113 [main] INFO  tests.TestsType_ChangeTravelDate - Start test - testCase_ChangeTravelDate_invalidtin_validemail
+21:24:43.029 [main] INFO  tests.TestsType_ChangeTravelDate - navigated to changeTravelDate page and details filled and submit clicked
+21:24:43.075 [main] INFO  tests.TestsType_ChangeTravelDate - warning validated
+21:24:43.097 [main] INFO  tests.TestsType_ChangeTravelDate - end test____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 2620
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:24:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="ChangeTravelDate_validtin_invalidemail" classname="tests.TestsType_ChangeTravelDate" time="12.899">
+    <system-out><![CDATA[21:25:08.963 [main] INFO  tests.TestsType_ChangeTravelDate - Start test - testCase_ChangeTravelDate_validtin_invalidemail
+21:25:21.836 [main] INFO  tests.TestsType_ChangeTravelDate - navigated to changeTravelDate page and details filled and submit clicked
+21:25:21.874 [main] INFO  tests.TestsType_ChangeTravelDate - warning validated
+21:25:21.874 [main] INFO  tests.TestsType_ChangeTravelDate - end test__________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 22074
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:24:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="ChangeTravelDate_validtin_validemail" classname="tests.TestsType_ChangeTravelDate" time="10.001">
+    <system-out><![CDATA[21:25:47.811 [main] INFO  tests.TestsType_ChangeTravelDate - Start test - testCase_ChangeTravelDate_validtin_validemail
+21:25:47.843 [main] INFO  tests.TestsType_ChangeTravelDate - navigated to home page
+21:25:54.555 [main] INFO  tests.TestsType_ChangeTravelDate - navigated to ChangeTravelDate page
+21:25:57.800 [main] INFO  tests.TestsType_ChangeTravelDate - details filled submit clicked
+21:25:57.813 [main] INFO  tests.TestsType_ChangeTravelDate - end test____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 7639
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:25:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="showMyTicket_invalidtin_invalidemail" classname="tests.TestsType_ShowMyTicket" time="10.291">
+    <system-out><![CDATA[21:26:23.695 [main] INFO  tests.TestsType_ShowMyTicket - Start test - testCase_showMyTicket_invalidtin_invalidemail
+21:26:33.929 [main] INFO  tests.TestsType_ShowMyTicket - navigated to showMyTicket page and details filled and submit clicked
+21:26:33.975 [main] INFO  tests.TestsType_ShowMyTicket - warning validated
+21:26:33.987 [main] INFO  tests.TestsType_ShowMyTicket - end test____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 30166
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:25:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="showMyTicket_invalidtin_validemail" classname="tests.TestsType_ShowMyTicket" time="10.387">
+    <system-out><![CDATA[21:26:59.872 [main] INFO  tests.TestsType_ShowMyTicket - Start test - testCase_showMyTicket_invalidtin_validemail
+21:27:10.166 [main] INFO  tests.TestsType_ShowMyTicket - navigated to showMyTicket page and details filled and submit clicked
+21:27:10.250 [main] INFO  tests.TestsType_ShowMyTicket - warning validated
+21:27:10.260 [main] INFO  tests.TestsType_ShowMyTicket - end test____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 42170
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:26:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="showMyTicket_validtin_invalidemail" classname="tests.TestsType_ShowMyTicket" time="10.63">
+    <system-out><![CDATA[21:27:36.211 [main] INFO  tests.TestsType_ShowMyTicket - Start test - testCase_showMyTicket_validtin_invalidemail
+21:27:46.788 [main] INFO  tests.TestsType_ShowMyTicket - navigated to showMyTicket page and details filled and submit clicked
+21:27:46.830 [main] INFO  tests.TestsType_ShowMyTicket - warning validated
+21:27:46.842 [main] INFO  tests.TestsType_ShowMyTicket - end test____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 8078
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:27:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="showMyTicket_validtin_validemail" classname="tests.TestsType_ShowMyTicket" time="10.615">
+    <system-out><![CDATA[21:28:12.725 [main] INFO  tests.TestsType_ShowMyTicket - Start test - testCase_showMyTicket_validtin_validemail
+21:28:12.744 [main] INFO  tests.TestsType_ShowMyTicket - navigated to home page
+21:28:19.463 [main] INFO  tests.TestsType_ShowMyTicket - navigated to show my ticket page
+21:28:23.330 [main] INFO  tests.TestsType_ShowMyTicket - details filled and submit clicked
+21:28:23.341 [main] INFO  tests.TestsType_ShowMyTicket - end test____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 9069
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:27:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="emailSmsTicket_invalidtin_invalidemail" classname="tests.TestsType_EmailSmsTicket" time="11.466">
+    <system-out><![CDATA[21:28:49.221 [main] INFO  tests.TestsType_EmailSmsTicket - Start test - testCase_emailSmsTicket_invalidtin_invalidemail
+21:29:00.455 [main] INFO  tests.TestsType_EmailSmsTicket - navigated to emailSmsTicket page and details filled and submit clicked
+21:29:00.653 [main] INFO  tests.TestsType_EmailSmsTicket - warning validated
+21:29:00.687 [main] INFO  tests.TestsType_EmailSmsTicket - end test____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 35664
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:28:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="emailSmsTicket_invalidtin_validemail" classname="tests.TestsType_EmailSmsTicket" time="10.96">
+    <system-out><![CDATA[21:29:08.000 [main] INFO  tests.TestsType_EmailSmsTicket - Start test - testCase_emailSmsTicket_invalidtin_validemail
+21:29:18.881 [main] INFO  tests.TestsType_EmailSmsTicket - navigated to emailSmsTicket page and details filled and submit clicked
+21:29:18.930 [main] INFO  tests.TestsType_EmailSmsTicket - warning validated
+21:29:18.962 [main] INFO  tests.TestsType_EmailSmsTicket - end test____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 31633
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:29:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="emailSmsTicket_validtin_invalidemail" classname="tests.TestsType_EmailSmsTicket" time="10.632">
+    <system-out><![CDATA[21:29:45.438 [main] INFO  tests.TestsType_EmailSmsTicket - Start test - testCase_emailSmsTicket_validtin_invalidemail
+21:29:56.025 [main] INFO  tests.TestsType_EmailSmsTicket - navigated to emailSmsTicket page and details filled and submit clicked
+21:29:56.060 [main] INFO  tests.TestsType_EmailSmsTicket - warning validated
+21:29:56.071 [main] INFO  tests.TestsType_EmailSmsTicket - end test____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 24059
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:29:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="emailSmsTicket_validtin_validemail" classname="tests.TestsType_EmailSmsTicket" time="10.641">
+    <system-out><![CDATA[21:30:22.019 [main] INFO  tests.TestsType_EmailSmsTicket - Start test - testCase_emailSmsTicket_validtin_validemail
+21:30:25.247 [main] INFO  tests.TestsType_EmailSmsTicket - navigated to home page
+21:30:28.768 [main] INFO  tests.TestsType_EmailSmsTicket - navigated to EmailSmsTicket page
+21:30:32.649 [main] INFO  tests.TestsType_EmailSmsTicket - details filled submit clicked
+21:30:32.663 [main] INFO  tests.TestsType_EmailSmsTicket - end test____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 36282
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:29:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="helpTypeNavigationTest" classname="tests.TestsType_Help" time="57.292">
+    <failure message="no such window&#10;  (Session info: chrome=91.0.4472.124)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;PUJAARORA&apos;, ip: &apos;172.22.64.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\PUJAAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0fed5fb2164dbdbbf5addba32817e43b" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
+no such window
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUJAARORA', ip: '172.22.64.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\PUJAAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0fed5fb2164dbdbbf5addba32817e43b
+	at tests.TestsType_Help.helpTypeNavigationTest(TestsType_Help.java:55)
+]]></failure>
+    <system-out><![CDATA[21:30:58.562 [main] INFO  tests.TestsType_Help - Start test - testCase_helpTypeNavigationTest
+21:31:45.850 [main] INFO  tests.TestsType_Help - browser login and then site login
+21:31:48.877 [main] INFO  tests.TestsType_Help - navigated to home page
+21:31:49.895 [main] INFO  tests.TestsType_Help - navigated to help page
+21:31:54.399 [main] INFO  tests.TestsType_Help - popups handled
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 17466
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:30:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="help_viewAllChatsNavigationTest" classname="tests.TestsType_Help" time="70.538">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;reactContentMount&quot;]/div/div[2]/div[2]/div&quot;}&#10;  (Session info: chrome=91.0.4472.124)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;PUJAARORA&apos;, ip: &apos;172.22.64.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\PUJAAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b328a196b2779d3c223861335253a89a&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;reactContentMount&quot;]/div/div[2]/div[2]/div}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="reactContentMount"]/div/div[2]/div[2]/div"}
+  (Session info: chrome=91.0.4472.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUJAARORA', ip: '172.22.64.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\PUJAAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b328a196b2779d3c223861335253a89a
+*** Element info: {Using=xpath, value=//*[@id="reactContentMount"]/div/div[2]/div[2]/div}
+	at tests.TestsType_Help.help_viewAllChatsNavigationTest(TestsType_Help.java:180)
+]]></failure>
+    <system-out><![CDATA[C:\Users\pujaarora\eclipse-workspace\Puja_3164915_RedBus/FailedScreenshots/helpTypeNavigationTest.jpg
+21:32:21.950 [main] INFO  tests.TestsType_Help - Start test - testCase_help_viewAllChatsNavigationTest
+21:33:08.330 [main] INFO  tests.TestsType_Help - browser login and then site login
+21:33:08.334 [main] INFO  tests.TestsType_Help - navigated to home page
+21:33:09.363 [main] INFO  tests.TestsType_Help - navigated to help page
+21:33:12.494 [main] INFO  tests.TestsType_Help - popups handled
+21:33:13.766 [main] INFO  tests.TestsType_Help - popups handled
+21:33:14.436 [main] INFO  tests.TestsType_Help - navigated to chats page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 41809
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:31:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="busHireOptionsNavigationTest" classname="tests.TestsType_BusHire" time="32.416">
+    <system-out><![CDATA[C:\Users\pujaarora\eclipse-workspace\Puja_3164915_RedBus/FailedScreenshots/help_viewAllChatsNavigationTest.jpg
+21:33:58.607 [main] INFO  tests.TestsType_BusHire - Start test - testCase_busHireOptionsNavigationTest
+21:34:01.634 [main] INFO  tests.TestsType_BusHire - navigate to home page
+21:34:06.255 [main] INFO  tests.TestsType_BusHire - navigate to bus hire page
+21:34:12.501 [main] INFO  tests.TestsType_BusHire - navigate to outstation page
+21:34:18.775 [main] INFO  tests.TestsType_BusHire - navigate to local page
+21:34:28.016 [main] INFO  tests.TestsType_BusHire - navigate to airport page
+21:34:31.024 [main] INFO  tests.TestsType_BusHire - test ends____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 37397
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:33:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="employeeTransportTest_Invalid_BlankFields" classname="tests.TestsType_BusHire" time="26.492">
+    <system-out><![CDATA[21:34:57.033 [main] INFO  tests.TestsType_BusHire - Start test - testCase_employeeTransportTest_Invalid_BlankFields
+21:35:00.054 [main] INFO  tests.TestsType_BusHire - navigate to home page
+21:35:05.009 [main] INFO  tests.TestsType_BusHire - navigate to bus hire page
+21:35:14.193 [main] INFO  tests.TestsType_BusHire - navigate to rcommute page
+21:35:17.326 [main] INFO  tests.TestsType_BusHire - submit clicked without filling fields
+21:35:23.526 [main] INFO  tests.TestsType_BusHire - error appears
+21:35:23.526 [main] INFO  tests.TestsType_BusHire - test ends____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 23433
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:34:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="employeeTransportTest_invalidEmailAndPhn" classname="tests.TestsType_BusHire" time="26.245">
+    <system-out><![CDATA[21:35:49.435 [main] INFO  tests.TestsType_BusHire - Start test - testCase_employeeTransportTest_invalidEmailAndPhn
+21:35:52.475 [main] INFO  tests.TestsType_BusHire - navigate to home page
+21:35:56.957 [main] INFO  tests.TestsType_BusHire - navigate to bus hire page
+21:36:06.153 [main] INFO  tests.TestsType_BusHire - navigate to rcommute page
+21:36:09.498 [main] INFO  tests.TestsType_BusHire - fields filled with invalid credential format
+21:36:09.581 [main] INFO  tests.TestsType_BusHire - submit clicked
+21:36:15.681 [main] INFO  tests.TestsType_BusHire - error appears
+21:36:15.681 [main] INFO  tests.TestsType_BusHire - test ends____________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 16858
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 05, 2021 9:35:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
