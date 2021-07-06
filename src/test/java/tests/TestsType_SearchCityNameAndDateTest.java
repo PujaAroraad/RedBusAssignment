@@ -10,7 +10,6 @@ import org.apache.logging.log4j.core.Logger;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.LogStatus;
@@ -66,7 +65,7 @@ public class TestsType_SearchCityNameAndDateTest extends Test_BaseTest {
 					try {
 						HomePage hp = new HomePage(driver);
 						hp.validatePageTitle();
-						Reporter.log("navigate to home page");
+						extentTests.log(LogStatus.INFO,"navigate to home page");
 						Log.info("navigate to home page");
 						hp.fill_source(src);
 						System.out.print(hp.match_autofilled_source_content());
@@ -81,14 +80,14 @@ public class TestsType_SearchCityNameAndDateTest extends Test_BaseTest {
 						System.out.print(driver.getTitle());
 						AvailableBusPage abp = new AvailableBusPage(driver);
 						if(abp.pageTitleVerify(src, dest)!=true)throw new Exception();
-						Reporter.log("filled details src,dest,date are"+src+" "+dest+" "+dd+"-"+mm+"-"+yyyy);
+						extentTests.log(LogStatus.INFO,"filled details src,dest,date are"+src+" "+dest+" "+dd+"-"+mm+"-"+yyyy);
 						Log.info("filled details src,dest,date are"+src+" "+dest+" "+dd+"-"+mm+"-"+yyyy);
 						driver.get(vprop.getProperty("siteUrl"));
 						r.getCell(status).setCellValue("pass");
 					} catch (Exception e) {
 						r.getCell(status).setCellValue("fail");
 					}
-					Reporter.log("SearchCityNameAndDateTest_searchtest_"+src+" "+dest+" "+dd+"-"+mm+"-"+yyyy+" test ends");
+					extentTests.log(LogStatus.INFO,"SearchCityNameAndDateTest_searchtest_"+src+" "+dest+" "+dd+"-"+mm+"-"+yyyy+" test ends");
 					Log.info("SearchCityNameAndDateTest_searchtest_"+src+" "+dest+" "+dd+"-"+mm+"-"+yyyy+" test ends");
 				} else {
 					r.getCell(status).setCellValue("not defined");

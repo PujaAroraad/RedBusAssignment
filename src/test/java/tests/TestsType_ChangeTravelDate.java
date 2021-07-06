@@ -11,7 +11,6 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.Assert;
-import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.LogStatus;
@@ -63,7 +62,7 @@ public class TestsType_ChangeTravelDate extends Test_BaseTest{
 				
 				HomePage hp = new HomePage(driver);
 				hp.validatePageTitle();
-				Reporter.log("navigated to home page");
+				extentTests.log(LogStatus.INFO,"navigated to home page");
 				Log.info("navigated to home page");
 				hp.click_manageBooking();
 				utils.Waits.hardWait();
@@ -71,14 +70,14 @@ public class TestsType_ChangeTravelDate extends Test_BaseTest{
 				utils.Waits.hardWait();
 				ChangeTravelDatePage ctdp = new ChangeTravelDatePage(driver);
 				Assert.assertTrue(ctdp.validatePageTitle());
-				Reporter.log("navigated to ChangeTravelDate page");
+				extentTests.log(LogStatus.INFO,"navigated to ChangeTravelDate page");
 				Log.info("navigated to ChangeTravelDate page");
 				utils.Waits.hardWait();
 				ctdp.fill_ticketNo(tinNo);
 				ctdp.fill_email(email);
 				ctdp.click_search();
 				r.getCell(status).setCellValue("pass");
-				Reporter.log("details filled submit clicked");
+				extentTests.log(LogStatus.INFO,"details filled submit clicked");
 				Log.info("details filled submit clicked");
 
 			} else {
@@ -131,11 +130,11 @@ public class TestsType_ChangeTravelDate extends Test_BaseTest{
 				//Format of ticket no and email both are invalid 
 				
 				driver=reusableM.changeTravelDateTest(driver, vprop, tinNo, email);
-				Reporter.log("navigated to changeTravelDate page and details filled and submit clicked");
+				extentTests.log(LogStatus.INFO,"navigated to changeTravelDate page and details filled and submit clicked");
 				Log.info("navigated to changeTravelDate page and details filled and submit clicked");
 				ChangeTravelDatePage ctdp = new ChangeTravelDatePage(driver);
 				Assert.assertTrue(ctdp.validate_errormsg_invalidTicketNo_invalidEmail());	
-				Reporter.log("warning validated");
+				extentTests.log(LogStatus.INFO,"warning validated");
 				Log.info("warning validated");
 
 				r.getCell(status).setCellValue("pass");
@@ -189,11 +188,11 @@ public class TestsType_ChangeTravelDate extends Test_BaseTest{
 				//Format of ticket no is invalid and email is valid 
 				
 				driver=reusableM.changeTravelDateTest(driver, vprop, tinNo, email);
-				Reporter.log("navigated to changeTravelDate page and details filled and submit clicked");
+				extentTests.log(LogStatus.INFO,"navigated to changeTravelDate page and details filled and submit clicked");
 				Log.info("navigated to changeTravelDate page and details filled and submit clicked");
 				ChangeTravelDatePage ctdp = new ChangeTravelDatePage(driver);
 				Assert.assertTrue(ctdp.validate_errormsg_invalidTicketNo_validEmail());	
-				Reporter.log("warning validated");
+				extentTests.log(LogStatus.INFO,"warning validated");
 				Log.info("warning validated");
 
 				r.getCell(status).setCellValue("pass");
@@ -247,11 +246,11 @@ public class TestsType_ChangeTravelDate extends Test_BaseTest{
 				//Format of ticket no is valid and email is invalid 
 				
 				driver=reusableM.changeTravelDateTest(driver, vprop, tinNo, email);
-				Reporter.log("navigated to changeTravelDate page and details filled and submit clicked");
+				extentTests.log(LogStatus.INFO,"navigated to changeTravelDate page and details filled and submit clicked");
 				Log.info("navigated to changeTravelDate page and details filled and submit clicked");
 				ChangeTravelDatePage ctdp = new ChangeTravelDatePage(driver);
 				Assert.assertTrue(ctdp.validate_errormsg_validTicketNo_invalidEmail());	
-				Reporter.log("warning validated");
+				extentTests.log(LogStatus.INFO,"warning validated");
 				Log.info("warning validated");
 
 				r.getCell(status).setCellValue("pass");

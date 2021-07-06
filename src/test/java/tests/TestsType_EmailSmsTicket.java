@@ -11,7 +11,6 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.Assert;
-import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.LogStatus;
@@ -65,20 +64,20 @@ public class TestsType_EmailSmsTicket extends Test_BaseTest{
 				HomePage hp = new HomePage(driver);
 				hp.click_manageBooking();
 				utils.Waits.hardWait();
-				Reporter.log("navigated to home page");
+				extentTests.log(LogStatus.INFO,"navigated to home page");
 				Log.info("navigated to home page");
 				hp.click_emailSms();
 				utils.Waits.hardWait();
 				EmailSmsTicketPage estp = new EmailSmsTicketPage(driver);
 				Assert.assertTrue(estp.validatePageTitle());
-				Reporter.log("navigated to EmailSmsTicket page");
+				extentTests.log(LogStatus.INFO,"navigated to EmailSmsTicket page");
 				Log.info("navigated to EmailSmsTicket page");
 				utils.Waits.hardWait();
 				estp.fill_ticketNo(tinNo);
 				estp.fill_email(email);
 				estp.click_submitBtn();
 				estp.validateNavigationToPrintTicketPage();
-				Reporter.log("details filled submit clicked");
+				extentTests.log(LogStatus.INFO,"details filled submit clicked");
 				Log.info("details filled submit clicked");
 				
 				r.getCell(status).setCellValue("pass");
@@ -134,11 +133,11 @@ public class TestsType_EmailSmsTicket extends Test_BaseTest{
 				//String tinNo="TNAM45", email="pujaarora";
 				
 				driver=reusableM.emailSmsTicketTest(driver, vprop, tinNo, email);
-				Reporter.log("navigated to emailSmsTicket page and details filled and submit clicked");
+				extentTests.log(LogStatus.INFO,"navigated to emailSmsTicket page and details filled and submit clicked");
 				Log.info("navigated to emailSmsTicket page and details filled and submit clicked");
 				EmailSmsTicketPage estp = new EmailSmsTicketPage(driver);
 				Assert.assertTrue(estp.validate_errormsg_invalidTicketNo_invalidEmail());
-				Reporter.log("warning validated");
+				extentTests.log(LogStatus.INFO,"warning validated");
 				Log.info("warning validated");
 
 				r.getCell(status).setCellValue("pass");
@@ -194,11 +193,11 @@ public class TestsType_EmailSmsTicket extends Test_BaseTest{
 				//String tinNo="TNAM45", email="pujaarora.980@gmail.com";
 				
 				driver=reusableM.emailSmsTicketTest(driver, vprop, tinNo, email);
-				Reporter.log("navigated to emailSmsTicket page and details filled and submit clicked");
+				extentTests.log(LogStatus.INFO,"navigated to emailSmsTicket page and details filled and submit clicked");
 				Log.info("navigated to emailSmsTicket page and details filled and submit clicked");
 				EmailSmsTicketPage estp = new EmailSmsTicketPage(driver);
 				Assert.assertTrue(estp.validate_errormsg_invalidTicketNo_validEmail());	
-				Reporter.log("warning validated");
+				extentTests.log(LogStatus.INFO,"warning validated");
 				Log.info("warning validated");
 
 				r.getCell(status).setCellValue("pass");
@@ -254,11 +253,11 @@ public class TestsType_EmailSmsTicket extends Test_BaseTest{
 				//String tinNo="TNAM45625380", email="pujaarora";
 				
 				driver=reusableM.emailSmsTicketTest(driver, vprop, tinNo, email);
-				Reporter.log("navigated to emailSmsTicket page and details filled and submit clicked");
+				extentTests.log(LogStatus.INFO,"navigated to emailSmsTicket page and details filled and submit clicked");
 				Log.info("navigated to emailSmsTicket page and details filled and submit clicked");
 				EmailSmsTicketPage estp = new EmailSmsTicketPage(driver);
 				Assert.assertTrue(estp.validate_errormsg_validTicketNo_invalidEmail());	
-				Reporter.log("warning validated");
+				extentTests.log(LogStatus.INFO,"warning validated");
 				Log.info("warning validated");
 				
 				r.getCell(status).setCellValue("pass");

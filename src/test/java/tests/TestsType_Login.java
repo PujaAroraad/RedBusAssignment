@@ -3,7 +3,6 @@ package tests;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 import org.testng.Assert;
-import org.testng.Reporter;
 import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.LogStatus;
 import pages.BrowserGmailSignInPages;
@@ -36,13 +35,13 @@ public class TestsType_Login extends Test_BaseTest {
 			utils.Waits.hardWait();
 			bgsip.click_password_next();
 			utils.Waits.hardWait();
-			Reporter.log("google browser login");
+			extentTests.log(LogStatus.INFO,"google browser login");
 			Log.info("google browser login");
 
 			HomePage hp = new HomePage(driver);
 			hp.launchHomePageUrl(vprop);
 			hp.validatePageTitle();
-			Reporter.log("navigate to site home page");
+			extentTests.log(LogStatus.INFO,"navigate to site home page");
 			Log.info("navigate to site home page");
 			utils.Waits.hardWait();
 			hp.click_signInBlock();
@@ -50,11 +49,11 @@ public class TestsType_Login extends Test_BaseTest {
 			hp.click_signInLink();
 			utils.Waits.hardWait();
 			hp.switchTo_loginFrame();
-			Reporter.log("navigate to sign in page");
+			extentTests.log(LogStatus.INFO,"navigate to sign in page");
 			Log.info("navigate to sign in page");
 			utils.Waits.hardWait();
 			hp.clickSignInWithGoogle();
-			Reporter.log("sign in with google choosed");
+			extentTests.log(LogStatus.INFO,"sign in with google choosed");
 			Log.info("sign in with google choosed");
 			utils.Waits.hardWait();
 			hp.windowSwitchToAcceptBrowserLogin();
@@ -69,7 +68,7 @@ public class TestsType_Login extends Test_BaseTest {
 			hp.click_signInBlock();
 			utils.Waits.hardWait();
 			Assert.assertTrue(hp.signOutLinkVisibility());
-			Reporter.log("sign out appers");
+			extentTests.log(LogStatus.INFO,"sign out appers");
 			Log.info("sign out appers");
 						
 			driver.quit();
@@ -98,23 +97,23 @@ public class TestsType_Login extends Test_BaseTest {
 			HomePage hp=new HomePage(driver);
 			utils.Waits.hardWait();
 			hp.validatePageTitle();	
-			Reporter.log("navigate to site home page");
+			extentTests.log(LogStatus.INFO,"navigate to site home page");
 			Log.info("navigate to site home page");
 			hp.click_signInBlock();
 			utils.Waits.hardWait();
 			hp.click_signInLink();
 			utils.Waits.hardWait();
 			hp.switchTo_loginFrame();
-			Reporter.log("navigate to sign in page");
+			extentTests.log(LogStatus.INFO,"navigate to sign in page");
 			Log.info("navigate to sign in page");
 			utils.Waits.hardWait();
 			hp.fill_loginByPhnNoIp(number);	
 			utils.Waits.hardWait();
 			Assert.assertFalse(hp.validate_errorMsgInvalidNo());
-			Reporter.log("phn no filled without error msg");
+			extentTests.log(LogStatus.INFO,"phn no filled without error msg");
 			Log.info("phn no filled no error msg appears");
 			Assert.assertTrue(hp.validateCaptchaBoxdisplayed());		
-			Reporter.log("captcha box appears");
+			extentTests.log(LogStatus.INFO,"captcha box appears");
 			Log.info("captcha box appears");		
 						
 			driver.quit();
@@ -143,20 +142,20 @@ public class TestsType_Login extends Test_BaseTest {
 			HomePage hp=new HomePage(driver);
 			utils.Waits.hardWait();
 			hp.validatePageTitle();
-			Reporter.log("navigate to site home page");
+			extentTests.log(LogStatus.INFO,"navigate to site home page");
 			Log.info("navigate to site home page");
 			hp.click_signInBlock();
 			utils.Waits.hardWait();
 			hp.click_signInLink();
 			utils.Waits.hardWait();
 			hp.switchTo_loginFrame();
-			Reporter.log("navigate to sign in page");
+			extentTests.log(LogStatus.INFO,"navigate to sign in page");
 			Log.info("navigate to sign in page");
 			utils.Waits.hardWait();
 			hp.fill_loginByPhnNoIp(number);	
 			utils.Waits.hardWait();
 			Assert.assertTrue(hp.validate_errorMsgInvalidNo());
-			Reporter.log("invalid phn no filled and error msg appears");
+			extentTests.log(LogStatus.INFO,"invalid phn no filled and error msg appears");
 			Log.info("invalid phn no filled and error msg appears");			
 			
 			driver.quit();
@@ -189,25 +188,25 @@ public class TestsType_Login extends Test_BaseTest {
 			fsip.click_loginBtn();
 			utils.Waits.hardWait();
 			utils.Waits.hardWait();
-			Reporter.log("facebook browser login");
+			extentTests.log(LogStatus.INFO,"facebook browser login");
 			Log.info("facebook browser login");
 			HomePage hp = new HomePage(driver);
 			hp.launchHomePageUrl(vprop);
 			utils.Waits.hardWait();
 			utils.Waits.hardWait();
 			hp.validatePageTitle();
-			Reporter.log("navigate to site home page");
+			extentTests.log(LogStatus.INFO,"navigate to site home page");
 			Log.info("navigate to site home page");
 			hp.click_signInBlock();
 			hp.click_signInLink();
 			hp.switchTo_loginFrame();
-			Reporter.log("navigate to sign in page");
+			extentTests.log(LogStatus.INFO,"navigate to sign in page");
 			Log.info("navigate to sign in page");
 			utils.Waits.hardWait();	
 			utils.Waits.hardWait();	
 			hp.click_facebookOption();
 			utils.Waits.hardWait();	
-			Reporter.log("sign in with facebook choosed");
+			extentTests.log(LogStatus.INFO,"sign in with facebook choosed");
 			Log.info("sign in with facebook choosed");
 			//As if phn number is also registered with the id then screen would close by default but if phn number not registered it is to be closed manually
 			try {
@@ -219,7 +218,7 @@ public class TestsType_Login extends Test_BaseTest {
 			hp.click_signInBlock();
 			utils.Waits.hardWait();	
 			Assert.assertTrue(hp.signOutLinkVisibility());		
-			Reporter.log("sign out appers");
+			extentTests.log(LogStatus.INFO,"sign out appers");
 			Log.info("sign out appers");
 						
 			driver.quit();

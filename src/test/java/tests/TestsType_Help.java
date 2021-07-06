@@ -3,7 +3,6 @@ package tests;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 import org.testng.Assert;
-import org.testng.Reporter;
 import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.LogStatus;
 import pages.HelpPage;
@@ -26,12 +25,12 @@ public class TestsType_Help extends Test_BaseTest {
 			
 			ReusableTestMethods reusable = new ReusableTestMethods();		
 			reusable.loginTest(driver, vprop);
-			Reporter.log("browser login and then site login");
+			extentTests.log(LogStatus.INFO,"browser login and then site login");
 			Log.info("browser login and then site login");
 			HomePage hp = new HomePage(driver);
 			utils.Waits.hardWait();
 			hp.validatePageTitle();
-			Reporter.log("navigated to home page");
+			extentTests.log(LogStatus.INFO,"navigated to home page");
 			Log.info("navigated to home page");
 			Assert.assertTrue(hp.validatePageTitle());
 			hp.click_help();
@@ -39,7 +38,7 @@ public class TestsType_Help extends Test_BaseTest {
 
 			HelpPage help = new HelpPage(driver);
 			Assert.assertTrue(help.validatePageTitle());
-			Reporter.log("navigated to help page");
+			extentTests.log(LogStatus.INFO,"navigated to help page");
 			Log.info("navigated to help page");
 			help.switchFrame();
 			utils.Waits.hardWait();
@@ -53,14 +52,14 @@ public class TestsType_Help extends Test_BaseTest {
 				try {
 					help.click_chooseEnglishOpt();
 					help.click_setLanguage();
-					Reporter.log("popups handled");
+					extentTests.log(LogStatus.INFO,"popups handled");
 					Log.info("popups handled");
 					help.click_newBusBookingHelp();
 				} catch (Exception languageSelectPopUp) {
 					help.click_newBusBookingHelp();
 				}
 			}
-			Reporter.log("navigated to newBusBookingHelp");
+			extentTests.log(LogStatus.INFO,"navigated to newBusBookingHelp");
 			Log.info("navigated to newBusBookingHelp");
 			utils.Waits.hardWait();
 			help.click_backBtn();
@@ -71,7 +70,7 @@ public class TestsType_Help extends Test_BaseTest {
 		// help_covid19traveladvisory
 			help.click_covid19TravelAdvisoryHelp();
 			utils.Waits.hardWait();
-			Reporter.log("navigated to covid19traveladvisory");
+			extentTests.log(LogStatus.INFO,"navigated to covid19traveladvisory");
 			Log.info("navigated to covid19traveladvisory");
 			help.click_backBtn();
 			utils.Waits.hardWait();
@@ -81,7 +80,7 @@ public class TestsType_Help extends Test_BaseTest {
 		// help_safetyPlusFeatureHelp
 			help.click_safetyPlusFeatureHelp();
 			utils.Waits.hardWait();
-			Reporter.log("navigated to safetyPlusFeatureHelp");
+			extentTests.log(LogStatus.INFO,"navigated to safetyPlusFeatureHelp");
 			Log.info("navigated to safetyPlusFeatureHelp");
 			help.click_backBtn();
 			utils.Waits.hardWait();
@@ -91,7 +90,7 @@ public class TestsType_Help extends Test_BaseTest {
 		// help_technicalIssuesHelp
 			help.click_technicalIssuesHelp();
 			utils.Waits.hardWait();
-			Reporter.log("navigated to technicalIssuesHelp");
+			extentTests.log(LogStatus.INFO,"navigated to technicalIssuesHelp");
 			Log.info("navigated to technicalIssuesHelp");
 			help.click_backBtn();
 			utils.Waits.hardWait();
@@ -101,7 +100,7 @@ public class TestsType_Help extends Test_BaseTest {
 		// help_redbusReferralHelp
 			help.click_redbusReferralHelp();
 			utils.Waits.hardWait();
-			Reporter.log("navigated to redbusReferralHelp");
+			extentTests.log(LogStatus.INFO,"navigated to redbusReferralHelp");
 			Log.info("navigated to redbusReferralHelp");
 			help.click_backBtn();
 			utils.Waits.hardWait();
@@ -111,7 +110,7 @@ public class TestsType_Help extends Test_BaseTest {
 		// help_offersHelp
 			help.click_offershelp();
 			utils.Waits.hardWait();
-			Reporter.log("navigated to offersHelp");
+			extentTests.log(LogStatus.INFO,"navigated to offersHelp");
 			Log.info("navigated to offersHelp");
 			help.click_backBtn();
 			utils.Waits.hardWait();
@@ -121,7 +120,7 @@ public class TestsType_Help extends Test_BaseTest {
 		// help_redBusWalletHelp
 			help.click_redBusWalletHelp();
 			utils.Waits.hardWait();
-			Reporter.log("navigated to redBusWalletHelp");
+			extentTests.log(LogStatus.INFO,"navigated to redBusWalletHelp");
 			Log.info("navigated to redBusWalletHelp");
 			help.click_backBtn();
 			utils.Waits.hardWait();
@@ -131,7 +130,7 @@ public class TestsType_Help extends Test_BaseTest {
 		// help_rpoolHelp
 			help.click_rpoolHelp();
 			utils.Waits.hardWait();
-			Reporter.log("navigated to rpoolHelp");
+			extentTests.log(LogStatus.INFO,"navigated to rpoolHelp");
 			Log.info("navigated to rpoolHelp");
 			
 			
@@ -160,48 +159,48 @@ public class TestsType_Help extends Test_BaseTest {
 			
 			ReusableTestMethods reusable = new ReusableTestMethods();		
 			reusable.loginTest(driver, vprop);
-			Reporter.log("browser login and then site login");
+			extentTests.log(LogStatus.INFO,"browser login and then site login");
 			Log.info("browser login and then site login");
 			HomePage hp = new HomePage(driver);
 			Assert.assertTrue(hp.validatePageTitle());
-			Reporter.log("navigated to home page");
+			extentTests.log(LogStatus.INFO,"navigated to home page");
 			Log.info("navigated to home page");
 			hp.click_help();
 			hp.switch_helpWindow();
 			HelpPage help = new HelpPage(driver);
 			Assert.assertTrue(help.validatePageTitle());
 			help.switchFrame();
-			Reporter.log("navigated to help page");
+			extentTests.log(LogStatus.INFO,"navigated to help page");
 			Log.info("navigated to help page");
 			utils.Waits.hardWait();
 			try {
 				help.click_language_popup();
-				Reporter.log("popups handled");
+				extentTests.log(LogStatus.INFO,"popups handled");
 				Log.info("popups handled");
 				help.click_viewAllChats();
 			} catch (Exception languageNotificationPopUp) {
 				try {
 					help.click_chooseEnglishOpt();
 					help.click_setLanguage();
-					Reporter.log("popups handled");
+					extentTests.log(LogStatus.INFO,"popups handled");
 					Log.info("popups handled");
 					help.click_viewAllChats();
 				} catch (Exception languageSelectPopUp) {
 					help.click_viewAllChats();
 				}
 			}
-			Reporter.log("navigated to chats page");
+			extentTests.log(LogStatus.INFO,"navigated to chats page");
 			Log.info("navigated to chats page");
 			utils.Waits.hardWait();
 			help.click_viewLastChat();
 			utils.Waits.hardWait();
 			help.click_backBtn();
-			Reporter.log("view last chat");
+			extentTests.log(LogStatus.INFO,"view last chat");
 			Log.info("view last chat");
 			utils.Waits.hardWait();
 			help.click_viewPreviousChat();
 			utils.Waits.hardWait();
-			Reporter.log("view previous chat");
+			extentTests.log(LogStatus.INFO,"view previous chat");
 			Log.info("view previous chat");
 						
 			driver.quit();

@@ -11,7 +11,6 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.Assert;
-import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.LogStatus;
@@ -62,7 +61,7 @@ public class TestsType_ShowMyTicket extends Test_BaseTest{
 				//Though the format of both ticket no and email is valid but not actually booked. Therefore unchecked case for now. 
 				
 				HomePage hp = new HomePage(driver);
-				Reporter.log("navigated to home page");
+				extentTests.log(LogStatus.INFO,"navigated to home page");
 				Log.info("navigated to home page");
 				hp.click_manageBooking();
 				utils.Waits.hardWait();
@@ -70,13 +69,13 @@ public class TestsType_ShowMyTicket extends Test_BaseTest{
 				utils.Waits.hardWait();
 				ShowMyTicketPage smtp = new ShowMyTicketPage(driver);
 				Assert.assertTrue(smtp.validatePageTitle());
-				Reporter.log("navigated to show my ticket page");
+				extentTests.log(LogStatus.INFO,"navigated to show my ticket page");
 				Log.info("navigated to show my ticket page");
 				utils.Waits.hardWait();
 				smtp.fill_ticketNo(tinNo);
 				smtp.fill_email(email);
 				smtp.click_submitBtn();	
-				Reporter.log("details filled and submit clicked");
+				extentTests.log(LogStatus.INFO,"details filled and submit clicked");
 				Log.info("details filled and submit clicked");
 				r.getCell(status).setCellValue("pass");
 
@@ -130,11 +129,11 @@ public class TestsType_ShowMyTicket extends Test_BaseTest{
 				//Format of ticket no and email both are invalid 
 				
 				driver=reusableM.showMyTicketTest(driver, vprop, tinNo, email);
-				Reporter.log("navigated to showMyTicket page and details filled and submit clicked");
+				extentTests.log(LogStatus.INFO,"navigated to showMyTicket page and details filled and submit clicked");
 				Log.info("navigated to showMyTicket page and details filled and submit clicked");
 				ShowMyTicketPage smtp = new ShowMyTicketPage(driver);
 				Assert.assertTrue(smtp.validate_errormsg_invalidTicketNo_invalidEmail());
-				Reporter.log("warning validated");
+				extentTests.log(LogStatus.INFO,"warning validated");
 				Log.info("warning validated");
 
 				r.getCell(status).setCellValue("pass");
@@ -187,11 +186,11 @@ public class TestsType_ShowMyTicket extends Test_BaseTest{
 				//Format of ticket no is invalid and email is valid 
 				
 				driver=reusableM.showMyTicketTest(driver, vprop, tinNo, email);
-				Reporter.log("navigated to showMyTicket page and details filled and submit clicked");
+				extentTests.log(LogStatus.INFO,"navigated to showMyTicket page and details filled and submit clicked");
 				Log.info("navigated to showMyTicket page and details filled and submit clicked");
 				ShowMyTicketPage smtp = new ShowMyTicketPage(driver);
 				Assert.assertTrue(smtp.validate_errormsg_invalidTicketNo_validEmail());	
-				Reporter.log("warning validated");
+				extentTests.log(LogStatus.INFO,"warning validated");
 				Log.info("warning validated");
 
 				r.getCell(status).setCellValue("pass");
@@ -244,11 +243,11 @@ public class TestsType_ShowMyTicket extends Test_BaseTest{
 				//Format of ticket no is valid and email is invalid 
 				
 				driver=reusableM.showMyTicketTest(driver, vprop, tinNo, email);
-				Reporter.log("navigated to showMyTicket page and details filled and submit clicked");
+				extentTests.log(LogStatus.INFO,"navigated to showMyTicket page and details filled and submit clicked");
 				Log.info("navigated to showMyTicket page and details filled and submit clicked");
 				ShowMyTicketPage smtp = new ShowMyTicketPage(driver);
 				Assert.assertTrue(smtp.validate_errormsg_validTicketNo_invalidEmail());	
-				Reporter.log("warning validated");
+				extentTests.log(LogStatus.INFO,"warning validated");
 				Log.info("warning validated");
 
 				r.getCell(status).setCellValue("pass");
